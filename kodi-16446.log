@@ -1,0 +1,1487 @@
+﻿2019-08-07 09:46:35.151 T:20778  NOTICE: -----------------------------------------------------------------------
+2019-08-07 09:46:35.151 T:20778  NOTICE: Starting Kodi (18.3 Git:20190619-89472b7d69). Platform: Android ARM 64-bit
+2019-08-07 09:46:35.151 T:20778  NOTICE: Using Release Kodi x64 build
+2019-08-07 09:46:35.151 T:20778  NOTICE: Kodi compiled 2019-06-28 by Clang 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) for Android ARM 64-bit API level 21 (API level 21)
+2019-08-07 09:46:35.151 T:20778  NOTICE: Running on NVIDIA SHIELD Android TV with Android 9.0.0 API level 28, kernel: Linux ARM 64-bit version 4.9.140-tegra-g8e6798163e77
+2019-08-07 09:46:35.151 T:20778  NOTICE: FFmpeg version/source: 4.0.3-Kodi
+2019-08-07 09:46:35.151 T:20778  NOTICE: Host CPU: ARMv8 Processor rev 1 (v8l), 4 cores available
+2019-08-07 09:46:35.151 T:20778  NOTICE: Product: darcy, Device: darcy, Board: darcy - Manufacturer: NVIDIA, Brand: NVIDIA, Model: SHIELD Android TV, Hardware: darcy
+2019-08-07 09:46:35.153 T:20778  NOTICE: External storage path = /storage/emulated/0; status = ok
+2019-08-07 09:46:35.153 T:20778  NOTICE: ARM Features: Neon disabled
+2019-08-07 09:46:35.153 T:20778  NOTICE: special://xbmc/ is mapped to: /data/user/0/org.xbmc.kodi/cache/apk/assets
+2019-08-07 09:46:35.153 T:20778  NOTICE: special://xbmcbin/ is mapped to: /data/user/0/org.xbmc.kodi/cache/apk/assets
+2019-08-07 09:46:35.153 T:20778  NOTICE: special://xbmcbinaddons/ is mapped to: /data/user/0/org.xbmc.kodi/cache/apk/assets/addons
+2019-08-07 09:46:35.153 T:20778  NOTICE: special://masterprofile/ is mapped to: /storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/userdata
+2019-08-07 09:46:35.153 T:20778  NOTICE: special://envhome/ is mapped to: /storage/emulated/0/Android/data/org.xbmc.kodi/files
+2019-08-07 09:46:35.153 T:20778  NOTICE: special://home/ is mapped to: /storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi
+2019-08-07 09:46:35.153 T:20778  NOTICE: special://temp/ is mapped to: /storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/temp
+2019-08-07 09:46:35.153 T:20778  NOTICE: special://logpath/ is mapped to: /storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/temp
+2019-08-07 09:46:35.153 T:20778  NOTICE: The executable running is: /data/app/org.xbmc.kodi-Z8KQbtqTnfBMuvby7Vr_og==/lib/arm64/libkodi.so
+2019-08-07 09:46:35.159 T:20778  NOTICE: Local hostname: pshield.netznutz.home
+2019-08-07 09:46:35.159 T:20778  NOTICE: Log File is located: /storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/temp/kodi.log
+2019-08-07 09:46:35.159 T:20778  NOTICE: -----------------------------------------------------------------------
+2019-08-07 09:46:35.165 T:20778    INFO: loading settings
+2019-08-07 09:46:35.166 T:20778  NOTICE: special://profile/ is mapped to: special://masterprofile/
+2019-08-07 09:46:35.177 T:20778   DEBUG: CSkinSettings: no <skinsettings> tag found
+2019-08-07 09:46:35.177 T:20778  NOTICE: No settings file to load (special://xbmc/system/advancedsettings.xml)
+2019-08-07 09:46:35.177 T:20778  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+2019-08-07 09:46:35.177 T:20778  NOTICE: Default Video Player: VideoPlayer
+2019-08-07 09:46:35.177 T:20778  NOTICE: Default Audio Player: paplayer
+2019-08-07 09:46:35.177 T:20778  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+2019-08-07 09:46:35.177 T:20778  NOTICE: Log level changed to "LOG_LEVEL_NORMAL"
+2019-08-07 09:46:35.177 T:20778  NOTICE: CMediaSourceSettings: loading media sources from special://masterprofile/sources.xml
+2019-08-07 09:46:35.192 T:20778  NOTICE: Running database version Addons27
+2019-08-07 09:46:35.275 T:20778  NOTICE: ADDON: audioencoder.kodi.builtin.aac v1.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: audioencoder.kodi.builtin.wma v1.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: game.controller.default v1.0.8 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: game.controller.snes v1.0.8 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: inputstream.adaptive v2.3.22 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.global.audioengine v1.0.1 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.global.filesystem v1.0.2 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.global.general v1.0.3 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.global.gui v5.12.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.global.main v1.0.14 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.global.network v1.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.audiodecoder v2.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.audioencoder v2.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.game v1.1.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.imagedecoder v2.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.inputstream v2.0.8 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.peripheral v1.3.7 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.pvr v5.10.3 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.screensaver v2.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.vfs v2.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.videocodec v1.0.1 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.binary.instance.visualization v2.0.1 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: kodi.resource v1.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.album.universal v3.1.2 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.artists.universal v4.3.2 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.common.allmusic.com v3.2.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.common.fanart.tv v3.6.1 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.common.imdb.com v3.1.4 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.common.musicbrainz.org v2.2.1 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.common.theaudiodb.com v2.0.2 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.common.themoviedb.org v3.1.9 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.local v1.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.themoviedb.org v5.1.8 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.tvdb.com v3.0.16 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: metadata.tvshows.themoviedb.org v3.1.2 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: peripheral.joystick v1.4.7 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: pvr.hts v4.4.18 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: repository.xbmc.org v3.1.5 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: resource.images.weathericons.default v1.1.8 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: resource.language.en_gb v2.0.1 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: resource.uisounds.kodi v1.0.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: screensaver.xbmc.builtin.black v1.0.32 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: screensaver.xbmc.builtin.dim v1.0.55 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: script.module.pil v1.1.7 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: script.module.pycryptodome v3.4.3 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: script.openweathermap.maps v0.2.3 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: service.xbmc.versioncheck v0.4.6 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: skin.confluence v4.6.5 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: skin.estouchy v2.0.24 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: skin.estuary v2.0.23 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: visualization.projectm v2.2.0 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: weather.openweathermap.extended v5.0.2 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: webinterface.default v18.x-2.4.6 installed
+2019-08-07 09:46:35.276 T:20778  NOTICE: ADDON: xbmc.addon v18.3.0 installed
+2019-08-07 09:46:35.277 T:20778  NOTICE: ADDON: xbmc.core v0.1.0 installed
+2019-08-07 09:46:35.277 T:20778  NOTICE: ADDON: xbmc.gui v5.14.0 installed
+2019-08-07 09:46:35.277 T:20778  NOTICE: ADDON: xbmc.json v10.3.0 installed
+2019-08-07 09:46:35.277 T:20778  NOTICE: ADDON: xbmc.metadata v2.1.0 installed
+2019-08-07 09:46:35.277 T:20778  NOTICE: ADDON: xbmc.python v2.26.0 installed
+2019-08-07 09:46:35.277 T:20778  NOTICE: ADDON: xbmc.webinterface v1.0.0 installed
+2019-08-07 09:46:35.417 T:20823  NOTICE: Float is supported
+2019-08-07 09:46:35.417 T:20823  NOTICE: Multi channel Float is supported
+2019-08-07 09:46:39.563 T:20823  NOTICE: Found 1 Lists of Devices
+2019-08-07 09:46:39.563 T:20823  NOTICE: Enumerated AUDIOTRACK devices:
+2019-08-07 09:46:39.563 T:20823  NOTICE:     Device 1
+2019-08-07 09:46:39.564 T:20823  NOTICE:         m_deviceName      : AudioTrack
+2019-08-07 09:46:39.564 T:20823  NOTICE:         m_displayName     : android
+2019-08-07 09:46:39.564 T:20823  NOTICE:         m_displayNameExtra: audiotrack
+2019-08-07 09:46:39.564 T:20823  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+2019-08-07 09:46:39.564 T:20823  NOTICE:         m_channels        : FL, FR, FC, LFE, SL, SR, BL, BR, BC, BLOC, BROC
+2019-08-07 09:46:39.564 T:20823  NOTICE:         m_sampleRates     : 32000,44100,48000,88200,96000,176400,192000
+2019-08-07 09:46:39.564 T:20823  NOTICE:         m_dataFormats     : AE_FMT_S16LE,AE_FMT_FLOAT,AE_FMT_RAW,AE_FMT_RAW
+2019-08-07 09:46:39.564 T:20823  NOTICE:         m_streamTypes     : STREAM_TYPE_AC3,STREAM_TYPE_DTSHD_CORE,STREAM_TYPE_DTS_1024,STREAM_TYPE_DTS_2048,STREAM_TYPE_DTS_512,STREAM_TYPE_EAC3
+2019-08-07 09:46:39.564 T:20824  NOTICE: Trying to open: samplerate: 44100, channelMask: 12, encoding: 4
+2019-08-07 09:46:39.569 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 44100 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 22688 m_frames: 1418 m_frameSize: 8 channels: 2
+2019-08-07 09:46:39.603 T:20778  NOTICE: CDecoderFilter: loading filters from special://masterprofile/decoderfilter.xml
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.aac.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.amrnb.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.amrwb.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.flac.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.g711.alaw.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.g711.mlaw.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.mp2.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.mp3.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.opus.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.raw.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.vorbis.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.wma.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.h264.decode
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.h264.decoder
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.h263.decode
+2019-08-07 09:46:39.676 T:20778  NOTICE: Mediacodec decoder: OMX.google.h263.decoder
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.h265.decode
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.google.hevc.decoder
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.mjpeg.decoder
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.mpeg2v.decode
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.mp4.decode
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.google.mpeg4.decoder
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.vc1.decode
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.vp8.decode
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.google.vp8.decoder
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.Nvidia.vp9.decode
+2019-08-07 09:46:39.677 T:20778  NOTICE: Mediacodec decoder: OMX.google.vp9.decoder
+2019-08-07 09:46:39.677 T:20778  NOTICE: CAndroidUtils: Current resolution: 1920x1080 1920x1080 @ 59.940060 - Full Screen
+2019-08-07 09:46:39.677 T:20778  NOTICE: Previous line repeats 1 times.
+2019-08-07 09:46:39.677 T:20778  NOTICE: EGL_VERSION = 1.4 Android META-EGL
+2019-08-07 09:46:39.677 T:20778  NOTICE: EGL_VENDOR = Android
+2019-08-07 09:46:39.677 T:20778  NOTICE: EGL_EXTENSIONS = EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_native_client_buffer EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_frame_timestamps EGL_EXT_surface_SMPTE2086_metadata EGL_EXT_surface_CTA861_3_metadata EGL_EXT_gl_colorspace_scrgb EGL_EXT_gl_colorspace_scrgb_linear EGL_EXT_gl_colorspace_display_p3_linear EGL_EXT_gl_colorspace_display_p3 EGL_EXT_gl_colorspace_bt2020_linear EGL_EXT_gl_colorspace_bt2020_pq EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_colorspace EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_reusable_sync EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_KHR_stream EGL_KHR_stream_fifo EGL_KHR_stream_producer_eglsurface EGL_KHR_stream_consumer_gltexture EGL_KHR_stream_cross_process_fd EGL_EXT_create_context_robustness EGL_NV_system_time EGL_NV_stream_sync EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update EGL_EXT_pixel_format_float EGL_EXT_buffer_age EGL_KHR_create_context_no_error EGL_KHR_mutable_render_buffer EGL_EXT_protected_content EGL_IMG_context_priority EGL_KHR_no_config_context
+2019-08-07 09:46:39.677 T:20778  NOTICE: EGL_CLIENT_EXTENSIONS = NULL
+2019-08-07 09:46:39.679 T:20778  NOTICE: Checking resolution 16
+2019-08-07 09:46:39.706 T:20778  NOTICE: GL_VENDOR = NVIDIA Corporation
+2019-08-07 09:46:39.706 T:20778  NOTICE: GL_RENDERER = NVIDIA Tegra
+2019-08-07 09:46:39.706 T:20778  NOTICE: GL_VERSION = OpenGL ES 3.2 NVIDIA 418.00
+2019-08-07 09:46:39.706 T:20778  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 3.20
+2019-08-07 09:46:39.706 T:20778  NOTICE: GL_EXTENSIONS = GL_EXT_debug_marker GL_EXT_base_instance GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_buffer_storage GL_EXT_clear_texture GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_copy_image GL_EXT_debug_label GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_EGL_image_array GL_EXT_EGL_image_storage GL_EXT_EGL_image_external_wrap_modes GL_EXT_external_buffer GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_map_buffer_range GL_EXT_multi_draw_indirect GL_EXT_multisample_compatibility GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_primitive_bounding_box GL_EXT_protected_textures GL_EXT_raster_multisample GL_EXT_render_snorm GL_EXT_robustness GL_EXT_separate_shader_objects GL_EXT_shader_group_vote GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_shader_io_blocks GL_EXT_shader_non_constant_global_initializers GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_sparse_texture GL_EXT_sparse_texture2 GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_format_BGRA8888 GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_view GL_EXT_draw_transform_feedback GL_EXT_unpack_subimage GL_EXT_window_rectangles GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_NV_bgr GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NV_blend_minmax_factor GL_NV_conditional_render GL_NV_conservative_raster GL_NV_copy_buffer GL_NV_copy_image GL_NV_draw_buffers GL_NV_draw_instanced GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_EGL_stream_consumer_external GL_NV_explicit_attrib_location GL_NV_fbo_color_attachments GL_NV_fill_rectangle GL_NV_fragment_coverage_to_color GL_NV_fragment_shader_interlock GL_NV_framebuffer_blit GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample GL_NV_generate_mipmap_sRGB GL_NV_geometry_shader_passthrough GL_NV_instanced_arrays GL_NV_internalformat_sample_query GL_NV_gpu_shader5 GL_NV_image_formats GL_NV_occlusion_query_samples GL_NV_non_square_matrices GL_NV_pack_subimage GL_NV_packed_float GL_NV_packed_float_linear GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_buffer_object GL_NV_polygon_mode GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_secure_context GL_NV_shader_atomic_fp16_vector GL_NV_shader_noperspective_interpolation GL_NV_shadow_samplers_array GL_NV_shadow_samplers_cube GL_NV_sRGB_formats GL_NV_texture_array GL_NV_texture_barrier GL_NV_texture_border_clamp GL_NV_texture_compression_latc GL_NV_texture_compression_s3tc GL_NV_texture_compression_s3tc_update GL_NV_timer_query GL_NV_viewport_array GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_compressed_ETC1_RGB8_texture GL_EXT_compressed_ETC1_RGB8_sub_texture GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_texture_border_clamp GL_OES_tessellation_point_size GL_OES_tessellation_shader GL_OES_texture_buffer GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_gpu_shader5 GL_OES_shader_io_blocks GL_OES_texture_view GL_OES_primitive_bounding_box GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_image_atomic GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_cube_map_array GL_OES_texture_npot GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_OES_viewport_array GL_OVR_multiview GL_OVR_multiview2 GL_ANDROID_extension_pack_es31a
+2019-08-07 09:46:40.123 T:20838  NOTICE: Running database version Addons27
+2019-08-07 09:46:40.124 T:20838  NOTICE: Running database version ViewModes6
+2019-08-07 09:46:40.126 T:20838  NOTICE: Running database version Textures13
+2019-08-07 09:46:40.133 T:20838  NOTICE: Running database version MyMusic72
+2019-08-07 09:46:40.138 T:20838  NOTICE: Running database version MyVideos116
+2019-08-07 09:46:40.140 T:20838  NOTICE: Running database version TV32
+2019-08-07 09:46:40.144 T:20838  NOTICE: Running database version Epg12
+2019-08-07 09:46:40.205 T:20778  NOTICE:   load skin from: /storage/emulated/0/Android/data/org.xbmc.kodi/files/.kodi/addons/skin.confluence (version: 4.6.5)
+2019-08-07 09:46:40.491 T:20778 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+2019-08-07 09:46:40.647 T:20778   ERROR: AddOnLog: Joystick Support: Device "Sony Interactive Entertainment Wireless Controller": can't find <controller> tag
+2019-08-07 09:46:40.695 T:20778  NOTICE: Register - new joystick device registered on android->android/inputdevice/3: virtual-search (0000:0000)
+2019-08-07 09:46:40.743 T:20778  NOTICE: Register - new joystick device registered on android->android/inputdevice/4: shield-ask-remote (0000:0000)
+2019-08-07 09:46:40.743 T:20778  NOTICE: Register - new keyboard device registered on application->keyboard: Keyboard (0000:0000)
+2019-08-07 09:46:40.743 T:20778  NOTICE: Register - new mouse device registered on application->mouse: Mouse (0000:0000)
+2019-08-07 09:46:40.748 T:20778  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+2019-08-07 09:46:40.751 T:20778  NOTICE: Loaded playercorefactory configuration
+2019-08-07 09:46:40.751 T:20778  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+2019-08-07 09:46:40.751 T:20778  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+2019-08-07 09:46:40.768 T:20778  NOTICE: initialize done
+2019-08-07 09:46:40.768 T:20778  NOTICE: Running the application...
+2019-08-07 09:46:40.773 T:20778  NOTICE: starting zeroconf publishing
+2019-08-07 09:46:40.774 T:20778  NOTICE: starting upnp client
+2019-08-07 09:46:40.788 T:20839  NOTICE: PVR Manager: Starting
+2019-08-07 09:46:40.790 T:20854  NOTICE: ES: Starting UDP Event server on port 9777
+2019-08-07 09:46:40.790 T:20854  NOTICE: UDP: Listening on port 9777 (ipv6 : false)
+2019-08-07 09:46:41.706 T:20860  NOTICE: PVR Manager: Started
+2019-08-07 09:46:43.862 T:20848  NOTICE: EPG thread started
+2019-08-07 09:46:46.218 T:20778  NOTICE: CWinSystemAndroid::DestroyWindow
+2019-08-07 09:46:46.225 T:20740 WARNING: CPeripheralBusAndroid: failed to update input device with ID -3 because it couldn't be found
+2019-08-07 09:52:00.615 T:20740 WARNING: CPeripheralBusAndroid: failed to remove input device with ID 95 because it couldn't be found
+2019-08-07 10:59:18.385 T:20778  NOTICE: GL_VENDOR = NVIDIA Corporation
+2019-08-07 10:59:18.387 T:20778  NOTICE: GL_RENDERER = NVIDIA Tegra
+2019-08-07 10:59:18.387 T:20778  NOTICE: GL_VERSION = OpenGL ES 3.2 NVIDIA 418.00
+2019-08-07 10:59:18.387 T:20778  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 3.20
+2019-08-07 10:59:18.387 T:20778  NOTICE: GL_EXTENSIONS = GL_EXT_debug_marker GL_EXT_base_instance GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_buffer_storage GL_EXT_clear_texture GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_copy_image GL_EXT_debug_label GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_EGL_image_array GL_EXT_EGL_image_storage GL_EXT_EGL_image_external_wrap_modes GL_EXT_external_buffer GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_gpu_shader5 GL_EXT_map_buffer_range GL_EXT_multi_draw_indirect GL_EXT_multisample_compatibility GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_primitive_bounding_box GL_EXT_protected_textures GL_EXT_raster_multisample GL_EXT_render_snorm GL_EXT_robustness GL_EXT_separate_shader_objects GL_EXT_shader_group_vote GL_EXT_shader_implicit_conversions GL_EXT_shader_integer_mix GL_EXT_shader_io_blocks GL_EXT_shader_non_constant_global_initializers GL_EXT_shader_texture_lod GL_EXT_shadow_samplers GL_EXT_sparse_texture GL_EXT_sparse_texture2 GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map_array GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_format_BGRA8888 GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_view GL_EXT_draw_transform_feedback GL_EXT_unpack_subimage GL_EXT_window_rectangles GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_NV_bgr GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_coherent GL_NV_blend_minmax_factor GL_NV_conditional_render GL_NV_conservative_raster GL_NV_copy_buffer GL_NV_copy_image GL_NV_draw_buffers GL_NV_draw_instanced GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_EGL_stream_consumer_external GL_NV_explicit_attrib_location GL_NV_fbo_color_attachments GL_NV_fill_rectangle GL_NV_fragment_coverage_to_color GL_NV_fragment_shader_interlock GL_NV_framebuffer_blit GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample GL_NV_generate_mipmap_sRGB GL_NV_geometry_shader_passthrough GL_NV_instanced_arrays GL_NV_internalformat_sample_query GL_NV_gpu_shader5 GL_NV_image_formats GL_NV_occlusion_query_samples GL_NV_non_square_matrices GL_NV_pack_subimage GL_NV_packed_float GL_NV_packed_float_linear GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_buffer_object GL_NV_polygon_mode GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_secure_context GL_NV_shader_atomic_fp16_vector GL_NV_shader_noperspective_interpolation GL_NV_shadow_samplers_array GL_NV_shadow_samplers_cube GL_NV_sRGB_formats GL_NV_texture_array GL_NV_texture_barrier GL_NV_texture_border_clamp GL_NV_texture_compression_latc GL_NV_texture_compression_s3tc GL_NV_texture_compression_s3tc_update GL_NV_timer_query GL_NV_viewport_array GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_compressed_ETC1_RGB8_texture GL_EXT_compressed_ETC1_RGB8_sub_texture GL_OES_depth24 GL_OES_depth32 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_texture_border_clamp GL_OES_tessellation_point_size GL_OES_tessellation_shader GL_OES_texture_buffer GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_gpu_shader5 GL_OES_shader_io_blocks GL_OES_texture_view GL_OES_primitive_bounding_box GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_image_atomic GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_cube_map_array GL_OES_texture_npot GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float GL_OES_viewport_array GL_OVR_multiview GL_OVR_multiview2 GL_ANDROID_extension_pack_es31a
+2019-08-07 10:59:19.676 T:20824  NOTICE: Trying to open: samplerate: 44100, channelMask: 12, encoding: 4
+2019-08-07 10:59:19.680 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 44100 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 56720 m_frames: 3545 m_frameSize: 8 channels: 2
+2019-08-07 10:59:30.387 T:20824  NOTICE: Trying to open: samplerate: 44100, channelMask: 12, encoding: 4
+2019-08-07 10:59:30.391 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 44100 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 56720 m_frames: 3545 m_frameSize: 8 channels: 2
+2019-08-07 10:59:33.518 T:20778  NOTICE: Log level changed to "LOG_LEVEL_DEBUG_FREEMEM"
+2019-08-07 10:59:33.518 T:20778  NOTICE: Enabled debug logging due to GUI setting. Level 2.
+2019-08-07 10:59:33.519 T:20778   DEBUG: ------ Window Init () ------
+2019-08-07 10:59:43.574 T:20778   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:43.574 T:20778   DEBUG: HandleKey: backspace (0xf008) pressed, action is Back
+2019-08-07 10:59:43.579 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+2019-08-07 10:59:43.813 T:20778   DEBUG: ------ Window Deinit (SettingsCategory.xml) ------
+2019-08-07 10:59:43.813 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 10:59:43.824 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+2019-08-07 10:59:43.824 T:20778   DEBUG: ------ Window Init (Settings.xml) ------
+2019-08-07 10:59:43.825 T:20778   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:44.741 T:20778   DEBUG: Previous line repeats 2 times.
+2019-08-07 10:59:44.742 T:20778   DEBUG: HandleKey: backspace (0xf008) pressed, action is Back
+2019-08-07 10:59:44.742 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+2019-08-07 10:59:44.980 T:20778   DEBUG: ------ Window Deinit (Settings.xml) ------
+2019-08-07 10:59:44.980 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 10:59:44.992 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+2019-08-07 10:59:44.992 T:20778   DEBUG: ------ Window Init (Home.xml) ------
+2019-08-07 10:59:46.155 T:20778   DEBUG: Keyboard: scancode: 0x15, sym: 0x0114, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:46.155 T:20778   DEBUG: HandleKey: left (0xf082) pressed, action is Left
+2019-08-07 10:59:46.293 T:20778   DEBUG: Keyboard: scancode: 0x15, sym: 0x0114, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:46.427 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:46.427 T:20778   DEBUG: HandleKey: left (0xf082) pressed, action is Left
+2019-08-07 10:59:46.493 T:20778   DEBUG: Keyboard: scancode: 0x15, sym: 0x0114, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:46.643 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:46.644 T:20778   DEBUG: HandleKey: left (0xf082) pressed, action is Left
+2019-08-07 10:59:46.693 T:20778   DEBUG: Keyboard: scancode: 0x15, sym: 0x0114, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:47.795 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:47.795 T:20778   DEBUG: HandleKey: left (0xf082) pressed, action is Left
+2019-08-07 10:59:47.928 T:20778   DEBUG: Keyboard: scancode: 0x15, sym: 0x0114, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:48.441 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:48.545 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:48.545 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 10:59:48.546 T:20778   DEBUG: Activating window ID: 10700
+2019-08-07 10:59:48.803 T:20778   DEBUG: ------ Window Deinit (Home.xml) ------
+2019-08-07 10:59:48.803 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 10:59:48.812 T:20778   DEBUG: ------ Window Init (MyPVRChannels.xml) ------
+2019-08-07 10:59:48.812 T:20778    INFO: Loading skin file: MyPVRChannels.xml, load type: KEEP_IN_MEMORY
+2019-08-07 10:59:48.846 T:20778   DEBUG: CGUIMediaWindow::GetDirectory (pvr://channels/tv/All channels/)
+2019-08-07 10:59:48.846 T:20778   DEBUG:   ParentPath = []
+2019-08-07 10:59:48.929 T:22174   DEBUG: Thread JobWorker start, auto delete: true
+2019-08-07 10:59:50.647 T:20778   DEBUG: Previous line repeats 2 times.
+2019-08-07 10:59:50.648 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:50.648 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 10:59:51.004 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:51.440 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:51.440 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 10:59:51.757 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:51.822 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:51.822 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 10:59:52.319 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.319 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.405 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.406 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.419 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.419 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.449 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.449 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.499 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.500 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.549 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.549 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.599 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.600 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.649 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.649 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.700 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.700 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.750 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.750 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.799 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.800 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.850 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.850 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.900 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.900 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:52.950 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:52.950 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.000 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.001 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.050 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.050 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.100 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.100 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.150 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.150 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.200 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.200 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.250 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.250 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.300 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.300 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.350 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.350 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.400 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.400 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.450 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.450 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.500 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.500 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.551 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.551 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.617 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.617 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.669 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.669 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.717 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.717 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.767 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.767 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.817 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.817 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.867 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.868 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.917 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.917 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:53.967 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:53.967 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.018 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.018 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.068 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.068 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.119 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.119 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.167 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.168 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.218 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.219 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.268 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.268 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.318 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.318 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.368 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.368 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.418 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.418 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.468 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.468 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.518 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.519 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.569 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.569 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.618 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.618 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.668 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.668 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.718 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.719 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.768 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.768 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.835 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.835 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.868 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.868 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.935 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.935 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:54.985 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:54.985 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.035 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.036 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.085 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.085 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.094 T:22175   DEBUG: ffmpeg[2B23BFF4F0]: [swscaler] No accelerated colorspace conversion found from yuv420p to bgra.
+2019-08-07 10:59:55.135 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.135 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.185 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.185 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.235 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.235 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.285 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.286 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.335 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.336 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.386 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.386 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.435 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.436 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.486 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.486 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.536 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.536 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.586 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.586 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.636 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.636 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.686 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.686 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.736 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.736 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.786 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.786 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.836 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.836 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.886 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.887 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.954 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.954 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:55.986 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:55.986 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.053 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.053 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.103 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.103 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.153 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.153 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.187 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.188 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.253 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.253 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.264 T:22176   DEBUG: ffmpeg[2B243A84F0]: [swscaler] No accelerated colorspace conversion found from yuv420p to bgra.
+2019-08-07 10:59:56.303 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.303 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.353 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.353 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.403 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.403 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.453 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.453 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.503 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.503 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.553 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:56.553 T:20778   DEBUG: HandleKey: long-down (0x100f081) pressed, action is Down
+2019-08-07 10:59:56.570 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:57.621 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:57.621 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 10:59:57.755 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:57.821 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:57.821 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 10:59:57.938 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:58.021 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:58.022 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 10:59:58.138 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:58.239 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:58.239 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 10:59:58.372 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 10:59:58.522 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 10:59:58.522 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 10:59:58.689 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:00.140 T:20778   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:00.140 T:20778   DEBUG: HandleKey: up (0xf080) pressed, action is Up
+2019-08-07 11:00:00.275 T:20778   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:00.691 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:00.793 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:00.793 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 11:00:00.808 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers(pvr://channels/tv/All channels/pvr.hts_1009078523.pvr)
+2019-08-07 11:00:00.808 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: system rules
+2019-08-07 11:00:00.808 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: matches rule: system rules
+2019-08-07 11:00:00.808 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: mms/udp
+2019-08-07 11:00:00.808 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: lastfm/shout
+2019-08-07 11:00:00.808 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtmp
+2019-08-07 11:00:00.808 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtsp
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: streams
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvd
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvdimage
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: sdp/asf
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: nsv
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: radio
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: matched 0 rules with players
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: adding videodefaultplayer (VideoPlayer)
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=0
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=1
+2019-08-07 11:00:00.809 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: added 1 players
+2019-08-07 11:00:00.813 T:20778   DEBUG: Radio UECP (RDS) Processor - new CDVDRadioRDSData
+2019-08-07 11:00:00.813 T:20778  NOTICE: VideoPlayer::OpenFile: pvr://channels/tv/All channels/pvr.hts_1009078523.pvr
+2019-08-07 11:00:00.813 T:20778   DEBUG: OnPlayBackStarted: CApplication::OnPlayBackStarted
+2019-08-07 11:00:00.813 T:22211   DEBUG: Thread VideoPlayer start, auto delete: false
+2019-08-07 11:00:00.813 T:22211  NOTICE: Creating InputStream
+2019-08-07 11:00:00.814 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux close
+2019-08-07 11:00:00.814 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux open
+2019-08-07 11:00:00.814 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux subscribe to 1009078523
+2019-08-07 11:00:00.817 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux successfully subscribed to channel id 1009078523, subscription id 1
+2019-08-07 11:00:00.817 T:22211   DEBUG: CInputStreamPVRChannel - OpenPVRStream - opened channel stream pvr://channels/tv/All channels/pvr.hts_1009078523.pvr
+2019-08-07 11:00:00.817 T:22211  NOTICE: Creating Demuxer
+2019-08-07 11:00:00.817 T:22211   DEBUG: CVideoPlayer::SetCaching - caching state 2
+2019-08-07 11:00:00.818 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:00.818 T:22175   DEBUG: Loading settings for pvr://channels/tv/All channels/pvr.hts_1009078523.pvr
+2019-08-07 11:00:00.821 T:20778   DEBUG: CPlayerGUIInfo::InitCurrentItem(pvr://channels/tv/All channels/pvr.hts_1009078523.pvr)
+2019-08-07 11:00:00.821 T:20782   DEBUG: CAnnouncementManager - Announcement: OnChanged from xbmc
+2019-08-07 11:00:00.822 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1024, from xbmc, message OnChanged
+2019-08-07 11:00:00.827 T:20778   DEBUG: ------ Window Init (DialogSeekBar.xml) ------
+2019-08-07 11:00:00.843 T:20778   DEBUG: CPlayerGUIInfo::InitCurrentItem(pvr://channels/tv/All channels/pvr.hts_1009078523.pvr)
+2019-08-07 11:00:00.843 T:20782   DEBUG: CAnnouncementManager - Announcement: OnChanged from xbmc
+2019-08-07 11:00:00.844 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1024, from xbmc, message OnChanged
+2019-08-07 11:00:00.844 T:20782   DEBUG: CAnnouncementManager - Announcement: OnPlay from xbmc
+2019-08-07 11:00:00.844 T:20782   DEBUG: void CXBMCApp::OnPlayBackStarted()
+2019-08-07 11:00:00.848 T:20782   DEBUG: Visible Behind request: false
+2019-08-07 11:00:00.848 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnPlay
+2019-08-07 11:00:01.824 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux subscription start
+2019-08-07 11:00:01.828 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1001, type MPEG2VIDEO, codec: 2
+2019-08-07 11:00:01.828 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1002, type MPEG2AUDIO, codec: 86016
+2019-08-07 11:00:01.828 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1003, type MPEG2AUDIO, codec: 86016
+2019-08-07 11:00:01.828 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1004, type TELETEXT, codec: 94215
+2019-08-07 11:00:01.828 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1005, type DVBSUB, codec: 94209
+2019-08-07 11:00:01.828 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1006, type TEXTSUB, codec: 94210
+2019-08-07 11:00:01.828 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux stream change
+2019-08-07 11:00:01.828 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1001 with codec_id 2
+2019-08-07 11:00:01.828 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1002 with codec_id 86016
+2019-08-07 11:00:01.828 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1003 with codec_id 86016
+2019-08-07 11:00:01.828 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1004 with codec_id 94215
+2019-08-07 11:00:01.828 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1005 with codec_id 94209
+2019-08-07 11:00:01.829 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1006 with codec_id 94210
+2019-08-07 11:00:01.829 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:01.829 T:22211 WARNING: OpenStream - Unsupported stream 1001. Stream disabled.
+2019-08-07 11:00:01.829 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:01.829 T:22211  NOTICE: Finding audio codec for: 86016
+2019-08-07 11:00:01.829 T:22211   DEBUG: CDVDAudioCodecAndroidMediaCodec::Open codec(86016), profile(-99), tag(0), extrasize(0)
+2019-08-07 11:00:01.830 T:22211    INFO: CDVDAudioCodecAndroidMediaCodec::Open() Use default handling for non encrypted stream
+2019-08-07 11:00:01.832 T:22211  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder mp2
+2019-08-07 11:00:01.832 T:22211  NOTICE: Creating audio thread
+2019-08-07 11:00:01.832 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:01.832 T:22212   DEBUG: Thread VideoPlayerAudio start, auto delete: false
+2019-08-07 11:00:01.832 T:22212  NOTICE: running thread: CVideoPlayerAudio::Process()
+2019-08-07 11:00:01.832 T:22212   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:01.839 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:01.839 T:22211  NOTICE: waiting for teletext data thread to exit
+2019-08-07 11:00:01.840 T:22211  NOTICE: Creating teletext data thread
+2019-08-07 11:00:01.840 T:22213   DEBUG: Thread DVDTeletextData start, auto delete: false
+2019-08-07 11:00:01.840 T:22213  NOTICE: running thread: CDVDTeletextData
+2019-08-07 11:00:01.840 T:22157   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:01.841 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:01.841 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:01.841 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 1 reported state: 0
+2019-08-07 11:00:01.841 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:-0.050000
+2019-08-07 11:00:01.841 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - split extradata
+2019-08-07 11:00:01.841 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1001 with codec_id 2
+2019-08-07 11:00:01.841 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1002 with codec_id 86016
+2019-08-07 11:00:01.841 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1003 with codec_id 86016
+2019-08-07 11:00:01.841 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1004 with codec_id 94215
+2019-08-07 11:00:01.841 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1005 with codec_id 94209
+2019-08-07 11:00:01.841 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1006 with codec_id 94210
+2019-08-07 11:00:01.842 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:01.842 T:22211  NOTICE: Creating video codec with codec id: 2
+2019-08-07 11:00:01.842 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mp2.decoder
+2019-08-07 11:00:01.843 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.wma.decoder
+2019-08-07 11:00:01.843 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h264.decode
+2019-08-07 11:00:01.843 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h263.decode
+2019-08-07 11:00:01.843 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h265.decode
+2019-08-07 11:00:01.843 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mjpeg.decoder
+2019-08-07 11:00:01.843 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mpeg2v.decode
+2019-08-07 11:00:01.844 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 11:00:01.844 T:20778   ERROR: CBinaryAddonManager::GetInstalledAddonInfo: Requested addon '' unknown as binary
+2019-08-07 11:00:01.882 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::Open m_codecname(OMX.Nvidia.mpeg2v.decode), colorFormat(2135033992)
+2019-08-07 11:00:01.882 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::Open m_codecname(OMX.Nvidia.mpeg2v.decode), colorFormat(21)
+2019-08-07 11:00:01.911 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::InjectExtraData
+2019-08-07 11:00:01.950 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: width(544), height(576), stride(0), slice-height(0), color-format(0)
+2019-08-07 11:00:01.950 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: crop-left(0), crop-top(0), crop-right(543), crop-bottom(575)
+2019-08-07 11:00:01.950 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: Multi-Surface Rendering
+2019-08-07 11:00:01.950 T:22211    INFO: CDVDVideoCodecAndroidMediaCodec:: Open Android MediaCodec OMX.Nvidia.mpeg2v.decode
+2019-08-07 11:00:01.950 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::UpdateFpsDuration fpsRate:1000000 fpsscale:40000, fpsDur:40000
+2019-08-07 11:00:01.951 T:22211   DEBUG: CVideoPlayerVideo::OpenStream - open stream with codec id: 2
+2019-08-07 11:00:01.951 T:22211  NOTICE: Creating video thread
+2019-08-07 11:00:01.951 T:22225   DEBUG: Thread VideoPlayerVideo start, auto delete: false
+2019-08-07 11:00:01.951 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:01.951 T:22225  NOTICE: running thread: video_thread
+2019-08-07 11:00:01.951 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:00:01.951 T:22225   DEBUG: CVideoPlayerVideo - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:01.951 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:01.951 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:01.951 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 2 reported state: 0
+2019-08-07 11:00:01.951 T:22225    INFO: CVideoPlayerVideo - Stillframe left, switching to normal playback
+2019-08-07 11:00:01.951 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::AddData current state (2)
+2019-08-07 11:00:01.951 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - (1002) samplerate changed from 3 to 48000
+2019-08-07 11:00:01.952 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - (1003) samplerate changed from 3 to 48000
+2019-08-07 11:00:01.952 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:01.952 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:01.952 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::AddData current state (2)
+2019-08-07 11:00:01.952 T:22211  NOTICE: Finding audio codec for: 86016
+2019-08-07 11:00:01.952 T:22211   DEBUG: CDVDAudioCodecAndroidMediaCodec::Open codec(86016), profile(-99), tag(0), extrasize(0)
+2019-08-07 11:00:01.952 T:22211    INFO: CDVDAudioCodecAndroidMediaCodec::Open() Use default handling for non encrypted stream
+2019-08-07 11:00:01.953 T:22211  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder mp2
+2019-08-07 11:00:01.953 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:00:01.953 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:01.953 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:01.953 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 2 reported state: 0
+2019-08-07 11:00:01.953 T:22212   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:01.953 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 1 reported state: 0
+2019-08-07 11:00:01.953 T:22174   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:01.953 T:22174   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:01.953 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:01.954 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:01.959 T:20778   DEBUG: FreeVisualisation() started
+2019-08-07 11:00:01.960 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 11:00:01.961 T:22212  NOTICE: Creating audio stream (codec id: 86016, channels: 2, sample rate: 48000, no pass-through)
+2019-08-07 11:00:01.961 T:22212   DEBUG: CVideoPlayerAudio:: synctype set to 1: resample
+2019-08-07 11:00:01.963 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::AddData current state (2)
+2019-08-07 11:00:01.963 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::UpdateFpsDuration fpsRate:25000 fpsscale:1000, fpsDur:40000
+2019-08-07 11:00:02.000 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec:: width(640), height(576), stride(640), slice-height(576), color-format(262)
+2019-08-07 11:00:02.000 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec:: crop-left(0), crop-top(0), crop-right(639), crop-bottom(575)
+2019-08-07 11:00:02.000 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec:: Multi-Surface Rendering
+2019-08-07 11:00:02.001 T:22225   DEBUG: CRenderManager::Configure - change configuration. 640x576. display: 640x360. framerate: 25.00.
+2019-08-07 11:00:02.013 T:20778   DEBUG: DeleteRenderer - deleting renderer
+2019-08-07 11:00:02.013 T:20778   DEBUG: LinuxRendererGLES: Cleaning up GLES resources
+2019-08-07 11:00:02.014 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 806815859
+2019-08-07 11:00:02.027 T:20778  NOTICE: Instancing CRendererMediaCodecSurface
+2019-08-07 11:00:02.027 T:20778  NOTICE: CRendererMediaCodecSurface::Configure
+2019-08-07 11:00:02.027 T:20778   DEBUG: CRenderManager::Configure - 4
+2019-08-07 11:00:02.101 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:02.101 T:22211   DEBUG: CVideoPlayer::HandleMessages - player started 2
+2019-08-07 11:00:02.104 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:02.104 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:02.123 T:20824    INFO: CActiveAESink::OpenSink - initialize sink
+2019-08-07 11:00:02.123 T:20824   DEBUG: Draining Audio
+2019-08-07 11:00:02.123 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:02.124 T:20824   DEBUG: Flushing might not be properly implemented, sleeping: 159 ms
+2019-08-07 11:00:02.284 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:02.284 T:20824   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+2019-08-07 11:00:02.284 T:20824   DEBUG: CAESinkAUDIOTRACK::Initialize requested: sampleRate 48000; format: AE_FMT_FLOATP; channels: 2
+2019-08-07 11:00:02.284 T:20824   DEBUG: Updated SampleRate: 32000 Distance: 144000
+2019-08-07 11:00:02.284 T:20824   DEBUG: Updated SampleRate: 44100 Distance: 35100
+2019-08-07 11:00:02.284 T:20824   DEBUG: Updated SampleRate: 48000 Distance: 0
+2019-08-07 11:00:02.284 T:20824  NOTICE: Trying to open: samplerate: 48000, channelMask: 12, encoding: 4
+2019-08-07 11:00:02.284 T:20824   DEBUG: Minimum size we need for stream: 30800
+2019-08-07 11:00:02.284 T:20824   DEBUG: Created Audiotrackbuffer with playing time of 160.416667 ms min buffer size: 61600 bytes
+2019-08-07 11:00:02.287 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 48000 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 61600 m_frames: 3850 m_frameSize: 8 channels: 2
+2019-08-07 11:00:02.287 T:20824   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+2019-08-07 11:00:02.287 T:20824   DEBUG:   Output Device : android
+2019-08-07 11:00:02.287 T:20824   DEBUG:   Sample Rate   : 48000
+2019-08-07 11:00:02.287 T:20824   DEBUG:   Sample Format : AE_FMT_FLOAT
+2019-08-07 11:00:02.287 T:20824   DEBUG:   Channel Count : 2
+2019-08-07 11:00:02.287 T:20824   DEBUG:   Channel Layout: FL, FR
+2019-08-07 11:00:02.287 T:20824   DEBUG:   Frames        : 3850
+2019-08-07 11:00:02.287 T:20824   DEBUG:   Frame Size    : 8
+2019-08-07 11:00:02.290 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 593286498
+2019-08-07 11:00:02.291 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:00:02.326 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:02.326 T:20778   DEBUG: Inhibiting OS screen saver
+2019-08-07 11:00:02.380 T:22211   DEBUG: CVideoPlayer::HandleMessages - player started 1
+2019-08-07 11:00:02.380 T:22211   DEBUG: VideoPlayer::Sync - Audio - pts: 457444.000000, cache: 311999.976635, totalcache: 760416.686535
+2019-08-07 11:00:02.380 T:22211   DEBUG: VideoPlayer::Sync - Video - pts: 1699688.000000, cache: 50000.000000, totalcache: 100000.000000
+2019-08-07 11:00:02.381 T:22225   DEBUG: CVideoPlayerVideo - CDVDMsg::GENERAL_RESYNC(-702972.686535)
+2019-08-07 11:00:02.381 T:22212   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_RESYNC(-702972.686535), level: 4, cache: 376255.323857
+2019-08-07 11:00:02.381 T:22212   DEBUG: CDVDAudio::Resume - resume audio stream
+2019-08-07 11:00:02.385 T:20823   DEBUG: ActiveAE - start sync of audio stream
+2019-08-07 11:00:02.386 T:22174   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:02.386 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:02.386 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:02.387 T:22174   DEBUG: OnAVStarted: CApplication::OnAVStarted
+2019-08-07 11:00:02.387 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVStart from xbmc
+2019-08-07 11:00:02.387 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVStart
+2019-08-07 11:00:02.387 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:-0.050000
+2019-08-07 11:00:02.393 T:20778   DEBUG: Activating window ID: 12005
+2019-08-07 11:00:02.393 T:20778   DEBUG: ------ Window Deinit (MyPVRChannels.xml) ------
+2019-08-07 11:00:02.393 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 11:00:02.395 T:20778   DEBUG: ------ Window Init (VideoFullScreen.xml) ------
+2019-08-07 11:00:02.395 T:20778    INFO: Loading skin file: VideoFullScreen.xml, load type: KEEP_IN_MEMORY
+2019-08-07 11:00:02.477 T:22174   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:02.477 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:02.477 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:02.523 T:20823   DEBUG: ActiveAE::SyncStream - average error of 774.825912, start adjusting
+2019-08-07 11:00:02.546 T:20778   DEBUG: ------ Window Deinit (DialogSeekBar.xml) ------
+2019-08-07 11:00:03.227 T:20823   DEBUG: ActiveAE::SyncStream - average error 0.177930 below threshold of 30.000000
+2019-08-07 11:00:03.384 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:03.907 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1275792657
+2019-08-07 11:00:04.123 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1150105585
+2019-08-07 11:00:04.410 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1395897123
+2019-08-07 11:00:05.002 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1356322815
+2019-08-07 11:00:05.002 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1541355013
+2019-08-07 11:00:05.002 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1386150737
+2019-08-07 11:00:05.002 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 681071743
+2019-08-07 11:00:05.002 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 558770641
+2019-08-07 11:00:05.994 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 162083209
+2019-08-07 11:00:05.994 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1699579358
+2019-08-07 11:00:07.136 T:22225   DEBUG: CPtsTracker: detected pattern of length 1: 20000.00, frameduration: 20000.000000
+2019-08-07 11:00:07.671 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1343791559
+2019-08-07 11:00:08.119 T:22225   DEBUG: CalcFrameRate framerate was:25.000000 calculated:50.000000
+2019-08-07 11:00:08.137 T:22225   DEBUG: CRenderManager::Configure - change configuration. 640x576. display: 640x360. framerate: 50.00.
+2019-08-07 11:00:08.184 T:20778   DEBUG: DeleteRenderer - deleting renderer
+2019-08-07 11:00:08.184 T:20778  NOTICE: Instancing CRendererMediaCodecSurface
+2019-08-07 11:00:08.184 T:20778  NOTICE: CRendererMediaCodecSurface::Configure
+2019-08-07 11:00:08.184 T:20778   DEBUG: CRenderManager::Configure - 4
+2019-08-07 11:00:08.207 T:22174   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:08.207 T:20782   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:08.207 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:08.207 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:08.208 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:08.208 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:09.562 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1631880365
+2019-08-07 11:00:09.564 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1066103977
+2019-08-07 11:00:09.757 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1703905122
+2019-08-07 11:00:09.758 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1752200231
+2019-08-07 11:00:10.018 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1522672456
+2019-08-07 11:00:11.983 T:20846   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - delete channel 1179405595
+2019-08-07 11:00:12.292 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Adding rds stream. id: 3
+2019-08-07 11:00:12.292 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux stream change
+2019-08-07 11:00:12.292 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 3 with codec_id 0
+2019-08-07 11:00:12.292 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1001 with codec_id 2
+2019-08-07 11:00:12.292 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1002 with codec_id 86016
+2019-08-07 11:00:12.292 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1003 with codec_id 86016
+2019-08-07 11:00:12.292 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1004 with codec_id 94215
+2019-08-07 11:00:12.292 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1005 with codec_id 94209
+2019-08-07 11:00:12.292 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1006 with codec_id 94210
+2019-08-07 11:00:12.293 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:12.293 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:12.293 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:00:12.293 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:12.293 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:12.293 T:22211  NOTICE: Opening stream: 3 source: 256
+2019-08-07 11:00:12.293 T:22211  NOTICE: Creating UECP (RDS) data thread
+2019-08-07 11:00:12.293 T:22234   DEBUG: Thread DVDRDSData start, auto delete: false
+2019-08-07 11:00:12.293 T:22234  NOTICE: Radio UECP (RDS) Processor - running thread
+2019-08-07 11:00:12.341 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 2 reported state: 2
+2019-08-07 11:00:12.342 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 1 reported state: 2
+2019-08-07 11:00:19.199 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::UpdateFpsDuration fpsRate:25000 fpsscale:1000, fpsDur:40000
+2019-08-07 11:00:35.943 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:36.076 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:36.076 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is OSD
+2019-08-07 11:00:36.077 T:20778   DEBUG: ------ Window Init (VideoOSD.xml) ------
+2019-08-07 11:00:36.077 T:20778    INFO: Loading skin file: VideoOSD.xml, load type: KEEP_IN_MEMORY
+2019-08-07 11:00:39.430 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:39.430 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:00:39.546 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:40.714 T:20778   DEBUG: Keyboard: scancode: 0x15, sym: 0x0114, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:40.715 T:20778   DEBUG: HandleKey: left (0xf082) pressed, action is Left
+2019-08-07 11:00:40.865 T:20778   DEBUG: Keyboard: scancode: 0x15, sym: 0x0114, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:42.850 T:20778   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:42.850 T:20778   DEBUG: HandleKey: backspace (0xf008) pressed, action is Back
+2019-08-07 11:00:42.967 T:20778   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:43.070 T:20778   DEBUG: ------ Window Deinit (VideoOSD.xml) ------
+2019-08-07 11:00:43.517 T:20778   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:43.651 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:43.651 T:20778   DEBUG: HandleKey: backspace (0xf008) pressed, action is Fullscreen
+2019-08-07 11:00:43.651 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+2019-08-07 11:00:43.651 T:20778   DEBUG: ------ Window Deinit (VideoFullScreen.xml) ------
+2019-08-07 11:00:43.657 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+2019-08-07 11:00:43.657 T:20778   DEBUG: ------ Window Init (MyPVRChannels.xml) ------
+2019-08-07 11:00:43.660 T:20778   DEBUG: CGUIMediaWindow::GetDirectory (pvr://channels/tv/All channels/)
+2019-08-07 11:00:43.660 T:20778   DEBUG:   ParentPath = [pvr://channels/tv/All channels/]
+2019-08-07 11:00:43.706 T:20778   DEBUG: ffmpeg[2B1D1804F0]: [swscaler] No accelerated colorspace conversion found from yuv420p to bgra.
+2019-08-07 11:00:45.102 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:45.102 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 11:00:45.185 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:45.970 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:46.086 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:46.086 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 11:00:46.088 T:20778   DEBUG: Activating window ID: 12005
+2019-08-07 11:00:46.088 T:20778   DEBUG: ------ Window Deinit (MyPVRChannels.xml) ------
+2019-08-07 11:00:46.089 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 11:00:46.090 T:20778   DEBUG: ------ Window Init (VideoFullScreen.xml) ------
+2019-08-07 11:00:46.098 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:46.098 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:46.098 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers(pvr://channels/tv/All channels/pvr.hts_1417404906.pvr)
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: system rules
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: matches rule: system rules
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: mms/udp
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: lastfm/shout
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtmp
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtsp
+2019-08-07 11:00:46.104 T:20782   DEBUG: CAnnouncementManager - Announcement: OnResume from xbmc
+2019-08-07 11:00:46.104 T:20782   DEBUG: void CXBMCApp::OnPlayBackStarted()
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: streams
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvd
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvdimage
+2019-08-07 11:00:46.104 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: sdp/asf
+2019-08-07 11:00:46.105 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: nsv
+2019-08-07 11:00:46.105 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: radio
+2019-08-07 11:00:46.105 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: matched 0 rules with players
+2019-08-07 11:00:46.105 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: adding videodefaultplayer (VideoPlayer)
+2019-08-07 11:00:46.105 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=0
+2019-08-07 11:00:46.105 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=1
+2019-08-07 11:00:46.106 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: added 1 players
+2019-08-07 11:00:46.106 T:20778  NOTICE: VideoPlayer::OpenFile: pvr://channels/tv/All channels/pvr.hts_1417404906.pvr
+2019-08-07 11:00:46.108 T:20782   DEBUG: Visible Behind request: false
+2019-08-07 11:00:46.108 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnResume
+2019-08-07 11:00:46.125 T:22211   DEBUG: CVideoPlayer: updating file item stream details with current streams
+2019-08-07 11:00:46.125 T:22211   DEBUG: CVideoPlayer::FlushBuffers - flushing buffers
+2019-08-07 11:00:46.127 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: state: 3
+2019-08-07 11:00:46.127 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: ReleaseMediaCodecBuffers
+2019-08-07 11:00:46.127 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: BUFFER_FLAG_END_OF_STREAM send
+2019-08-07 11:00:46.127 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::Reset Current state (3)
+2019-08-07 11:00:46.129 T:22225   DEBUG: CDVDVideoCodecAndroidMediaCodec::InjectExtraData
+2019-08-07 11:00:46.133 T:22176   DEBUG: OnPlayBackStarted: CApplication::OnPlayBackStarted
+2019-08-07 11:00:46.142 T:22176   DEBUG: CPlayerGUIInfo::InitCurrentItem(pvr://channels/tv/All channels/pvr.hts_1417404906.pvr)
+2019-08-07 11:00:46.142 T:20782   DEBUG: CAnnouncementManager - Announcement: OnChanged from xbmc
+2019-08-07 11:00:46.151 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1024, from xbmc, message OnChanged
+2019-08-07 11:00:46.153 T:20778   DEBUG: CPlayerGUIInfo::InitCurrentItem(pvr://channels/tv/All channels/pvr.hts_1417404906.pvr)
+2019-08-07 11:00:46.153 T:20782   DEBUG: CAnnouncementManager - Announcement: OnChanged from xbmc
+2019-08-07 11:00:46.162 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1024, from xbmc, message OnChanged
+2019-08-07 11:00:46.162 T:20782   DEBUG: CAnnouncementManager - Announcement: OnPlay from xbmc
+2019-08-07 11:00:46.163 T:20782   DEBUG: void CXBMCApp::OnPlayBackStarted()
+2019-08-07 11:00:46.164 T:20782   DEBUG: Visible Behind request: false
+2019-08-07 11:00:46.164 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnPlay
+2019-08-07 11:00:46.298 T:22212   DEBUG: CDVDAudio::Flush - flush audio stream
+2019-08-07 11:00:46.298 T:22212   DEBUG: CDVDAudio::Pause - pausing audio stream
+2019-08-07 11:00:46.298 T:22212   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_SYNCHRONIZE
+2019-08-07 11:00:46.298 T:22225   DEBUG: CVideoPlayerVideo - CDVDMsg::GENERAL_SYNCHRONIZE
+2019-08-07 11:00:46.299 T:22211   DEBUG: CVideoPlayer::SetCaching - caching state 2
+2019-08-07 11:00:46.299 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:46.299 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux unsubscribe from 1009078523
+2019-08-07 11:00:46.300 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux successfully unsubscribed from channel id 1009078523, subscription id 1
+2019-08-07 11:00:46.300 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux close
+2019-08-07 11:00:46.300 T:22211   DEBUG: CInputStreamPVRChannel - ClosePVRStream - closed channel stream pvr://channels/tv/All channels/pvr.hts_1009078523.pvr
+2019-08-07 11:00:46.300 T:22211  NOTICE: Creating InputStream
+2019-08-07 11:00:46.301 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux close
+2019-08-07 11:00:46.301 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux open
+2019-08-07 11:00:46.301 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux subscribe to 1417404906
+2019-08-07 11:00:46.302 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux successfully subscribed to channel id 1417404906, subscription id 2
+2019-08-07 11:00:46.302 T:22211   DEBUG: CInputStreamPVRChannel - OpenPVRStream - opened channel stream pvr://channels/tv/All channels/pvr.hts_1417404906.pvr
+2019-08-07 11:00:46.302 T:22211  NOTICE: Creating Demuxer
+2019-08-07 11:00:46.302 T:22211  NOTICE: Closing stream player 2
+2019-08-07 11:00:46.302 T:22211   DEBUG: CVideoPlayer::SetCaching - caching state 0
+2019-08-07 11:00:46.302 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:46.302 T:22211  NOTICE: waiting for video thread to exit
+2019-08-07 11:00:46.302 T:22225   ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true
+2019-08-07 11:00:46.302 T:22225  NOTICE: thread end: video_thread
+2019-08-07 11:00:46.302 T:22225   DEBUG: Thread VideoPlayerVideo 22225 terminating
+2019-08-07 11:00:46.302 T:22211  NOTICE: deleting video codec
+2019-08-07 11:00:46.303 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: state: 2
+2019-08-07 11:00:46.303 T:22211   DEBUG: CMediaCodecVideoBufferPool::~CMediaCodecVideoBufferPool Releasing 4 buffers
+2019-08-07 11:00:46.304 T:20778   DEBUG: Flush - flushing renderer
+2019-08-07 11:00:46.308 T:22176   DEBUG: Loading settings for pvr://channels/tv/All channels/pvr.hts_1417404906.pvr
+2019-08-07 11:00:46.309 T:22212   DEBUG: CDVDAudio::Pause - pausing audio stream
+2019-08-07 11:00:46.343 T:22211  NOTICE: Closing stream player 1
+2019-08-07 11:00:46.343 T:22211  NOTICE: Waiting for audio thread to exit
+2019-08-07 11:00:46.349 T:22212  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2019-08-07 11:00:46.349 T:22212   DEBUG: Thread VideoPlayerAudio 22212 terminating
+2019-08-07 11:00:46.349 T:22211  NOTICE: Closing audio device
+2019-08-07 11:00:46.350 T:22211   DEBUG: CDVDAudio::Flush - flush audio stream
+2019-08-07 11:00:46.350 T:20823   DEBUG: CActiveAE::DiscardStream - audio stream deleted
+2019-08-07 11:00:46.350 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:00:46.350 T:22211   DEBUG: Previous line repeats 2 times.
+2019-08-07 11:00:46.350 T:22211  NOTICE: Deleting audio codec
+2019-08-07 11:00:46.350 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:00:46.350 T:22211  NOTICE: Closing stream player 4
+2019-08-07 11:00:46.350 T:22211  NOTICE: waiting for teletext data thread to exit
+2019-08-07 11:00:46.350 T:22213   ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true (-1)
+2019-08-07 11:00:46.350 T:22213  NOTICE: thread end: data_thread
+2019-08-07 11:00:46.350 T:22213   DEBUG: Thread DVDTeletextData 22213 terminating
+2019-08-07 11:00:46.352 T:22211  NOTICE: Closing stream player 5
+2019-08-07 11:00:46.352 T:22211  NOTICE: Radio UECP (RDS) Processor - waiting for data thread to exit
+2019-08-07 11:00:46.352 T:22234   ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true (-1)
+2019-08-07 11:00:46.352 T:22234  NOTICE: Radio UECP (RDS) Processor - thread end
+2019-08-07 11:00:46.352 T:22234   DEBUG: Thread DVDRDSData 22234 terminating
+2019-08-07 11:00:46.352 T:22211   DEBUG: CVideoPlayer::SetCaching - caching state 2
+2019-08-07 11:00:46.352 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:46.357 T:20778   DEBUG: ------ Window Init (DialogSeekBar.xml) ------
+2019-08-07 11:00:46.602 T:20824    INFO: CActiveAESink::OpenSink - initialize sink
+2019-08-07 11:00:46.602 T:20824   DEBUG: Draining Audio
+2019-08-07 11:00:46.603 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:46.605 T:20824   DEBUG: Flushing might not be properly implemented, sleeping: 158 ms
+2019-08-07 11:00:46.763 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:46.763 T:20824   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+2019-08-07 11:00:46.763 T:20824   DEBUG: CAESinkAUDIOTRACK::Initialize requested: sampleRate 44100; format: AE_FMT_FLOAT; channels: 2
+2019-08-07 11:00:46.763 T:20824   DEBUG: Updated SampleRate: 32000 Distance: 108900
+2019-08-07 11:00:46.763 T:20824   DEBUG: Updated SampleRate: 44100 Distance: 0
+2019-08-07 11:00:46.763 T:20824  NOTICE: Trying to open: samplerate: 44100, channelMask: 12, encoding: 4
+2019-08-07 11:00:46.764 T:20824   DEBUG: Minimum size we need for stream: 28360
+2019-08-07 11:00:46.764 T:20824   DEBUG: Created Audiotrackbuffer with playing time of 160.770975 ms min buffer size: 56720 bytes
+2019-08-07 11:00:46.766 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 44100 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 56720 m_frames: 3545 m_frameSize: 8 channels: 2
+2019-08-07 11:00:46.766 T:20824   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+2019-08-07 11:00:46.766 T:20824   DEBUG:   Output Device : android
+2019-08-07 11:00:46.766 T:20824   DEBUG:   Sample Rate   : 44100
+2019-08-07 11:00:46.767 T:20824   DEBUG:   Sample Format : AE_FMT_FLOAT
+2019-08-07 11:00:46.767 T:20824   DEBUG:   Channel Count : 2
+2019-08-07 11:00:46.767 T:20824   DEBUG:   Channel Layout: FL, FR
+2019-08-07 11:00:46.767 T:20824   DEBUG:   Frames        : 3545
+2019-08-07 11:00:46.767 T:20824   DEBUG:   Frame Size    : 8
+2019-08-07 11:00:46.769 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:00:47.137 T:20847   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:47.137 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux subscription start
+2019-08-07 11:00:47.137 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1001, type MPEG2VIDEO, codec: 2
+2019-08-07 11:00:47.137 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1002, type MPEG2AUDIO, codec: 86016
+2019-08-07 11:00:47.137 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1003, type MPEG2AUDIO, codec: 86016
+2019-08-07 11:00:47.137 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1004, type TELETEXT, codec: 94215
+2019-08-07 11:00:47.137 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1005, type DVBSUB, codec: 94209
+2019-08-07 11:00:47.137 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1006, type TEXTSUB, codec: 94210
+2019-08-07 11:00:47.138 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux stream change
+2019-08-07 11:00:47.138 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1001 with codec_id 2
+2019-08-07 11:00:47.138 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1002 with codec_id 86016
+2019-08-07 11:00:47.138 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1003 with codec_id 86016
+2019-08-07 11:00:47.138 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1004 with codec_id 94215
+2019-08-07 11:00:47.138 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1005 with codec_id 94209
+2019-08-07 11:00:47.138 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1006 with codec_id 94210
+2019-08-07 11:00:47.139 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:47.139 T:22211 WARNING: OpenStream - Unsupported stream 1001. Stream disabled.
+2019-08-07 11:00:47.139 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:47.139 T:22211  NOTICE: Finding audio codec for: 86016
+2019-08-07 11:00:47.139 T:22211   DEBUG: CDVDAudioCodecAndroidMediaCodec::Open codec(86016), profile(-99), tag(0), extrasize(0)
+2019-08-07 11:00:47.139 T:22211    INFO: CDVDAudioCodecAndroidMediaCodec::Open() Use default handling for non encrypted stream
+2019-08-07 11:00:47.140 T:22211  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder mp2
+2019-08-07 11:00:47.140 T:22211  NOTICE: Creating audio thread
+2019-08-07 11:00:47.140 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:47.140 T:22236   DEBUG: Thread VideoPlayerAudio start, auto delete: false
+2019-08-07 11:00:47.140 T:22236  NOTICE: running thread: CVideoPlayerAudio::Process()
+2019-08-07 11:00:47.140 T:22236   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:47.140 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:47.140 T:22211  NOTICE: waiting for teletext data thread to exit
+2019-08-07 11:00:47.142 T:22211  NOTICE: Creating teletext data thread
+2019-08-07 11:00:47.142 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:47.142 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 1 reported state: 0
+2019-08-07 11:00:47.142 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:-0.050000
+2019-08-07 11:00:47.142 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:47.142 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:47.142 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - (1003) samplerate changed from 3 to 48000
+2019-08-07 11:00:47.143 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - (1002) samplerate changed from 3 to 48000
+2019-08-07 11:00:47.144 T:22237   DEBUG: Thread DVDTeletextData start, auto delete: false
+2019-08-07 11:00:47.144 T:22237  NOTICE: running thread: CDVDTeletextData
+2019-08-07 11:00:47.153 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - split extradata
+2019-08-07 11:00:47.153 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1001 with codec_id 2
+2019-08-07 11:00:47.153 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1002 with codec_id 86016
+2019-08-07 11:00:47.153 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1003 with codec_id 86016
+2019-08-07 11:00:47.153 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1004 with codec_id 94215
+2019-08-07 11:00:47.153 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1005 with codec_id 94209
+2019-08-07 11:00:47.153 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1006 with codec_id 94210
+2019-08-07 11:00:47.154 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:47.154 T:22211  NOTICE: Creating video codec with codec id: 2
+2019-08-07 11:00:47.154 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mp2.decoder
+2019-08-07 11:00:47.155 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.wma.decoder
+2019-08-07 11:00:47.155 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h264.decode
+2019-08-07 11:00:47.155 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h263.decode
+2019-08-07 11:00:47.155 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h265.decode
+2019-08-07 11:00:47.155 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mjpeg.decoder
+2019-08-07 11:00:47.155 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mpeg2v.decode
+2019-08-07 11:00:47.159 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::Open m_codecname(OMX.Nvidia.mpeg2v.decode), colorFormat(2135033992)
+2019-08-07 11:00:47.159 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::Open m_codecname(OMX.Nvidia.mpeg2v.decode), colorFormat(21)
+2019-08-07 11:00:47.188 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::InjectExtraData
+2019-08-07 11:00:47.201 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: width(544), height(576), stride(0), slice-height(0), color-format(0)
+2019-08-07 11:00:47.201 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: crop-left(0), crop-top(0), crop-right(543), crop-bottom(575)
+2019-08-07 11:00:47.201 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: Multi-Surface Rendering
+2019-08-07 11:00:47.201 T:22211    INFO: CDVDVideoCodecAndroidMediaCodec:: Open Android MediaCodec OMX.Nvidia.mpeg2v.decode
+2019-08-07 11:00:47.201 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::UpdateFpsDuration fpsRate:1000000 fpsscale:40000, fpsDur:40000
+2019-08-07 11:00:47.202 T:22211   DEBUG: CVideoPlayerVideo::OpenStream - open stream with codec id: 2
+2019-08-07 11:00:47.202 T:22211  NOTICE: Creating video thread
+2019-08-07 11:00:47.202 T:22246   DEBUG: Thread VideoPlayerVideo start, auto delete: false
+2019-08-07 11:00:47.202 T:22246  NOTICE: running thread: video_thread
+2019-08-07 11:00:47.202 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:47.202 T:22246   DEBUG: CVideoPlayerVideo - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:47.202 T:22211  NOTICE: Finding audio codec for: 86016
+2019-08-07 11:00:47.202 T:22211   DEBUG: CDVDAudioCodecAndroidMediaCodec::Open codec(86016), profile(-99), tag(0), extrasize(0)
+2019-08-07 11:00:47.202 T:22211    INFO: CDVDAudioCodecAndroidMediaCodec::Open() Use default handling for non encrypted stream
+2019-08-07 11:00:47.202 T:22211  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder mp2
+2019-08-07 11:00:47.203 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:00:47.203 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:47.203 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:47.203 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 2 reported state: 0
+2019-08-07 11:00:47.203 T:22246    INFO: CVideoPlayerVideo - Stillframe left, switching to normal playback
+2019-08-07 11:00:47.203 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec::AddData current state (2)
+2019-08-07 11:00:47.211 T:22236   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:47.211 T:22236  NOTICE: Creating audio stream (codec id: 86016, channels: 2, sample rate: 48000, no pass-through)
+2019-08-07 11:00:47.212 T:22236   DEBUG: CVideoPlayerAudio:: synctype set to 1: resample
+2019-08-07 11:00:47.214 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec::AddData current state (2)
+2019-08-07 11:00:47.214 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec::UpdateFpsDuration fpsRate:25000 fpsscale:1000, fpsDur:40000
+2019-08-07 11:00:47.228 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 1 reported state: 0
+2019-08-07 11:00:47.228 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:47.228 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:47.229 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:47.250 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec:: width(640), height(576), stride(640), slice-height(576), color-format(262)
+2019-08-07 11:00:47.250 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec:: crop-left(0), crop-top(0), crop-right(639), crop-bottom(575)
+2019-08-07 11:00:47.250 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec:: Multi-Surface Rendering
+2019-08-07 11:00:47.251 T:22246   DEBUG: CRenderManager::Configure - change configuration. 640x576. display: 640x360. framerate: 25.00.
+2019-08-07 11:00:47.256 T:20778   DEBUG: DeleteRenderer - deleting renderer
+2019-08-07 11:00:47.256 T:20778  NOTICE: Instancing CRendererMediaCodecSurface
+2019-08-07 11:00:47.256 T:20778  NOTICE: CRendererMediaCodecSurface::Configure
+2019-08-07 11:00:47.256 T:20778   DEBUG: CRenderManager::Configure - 4
+2019-08-07 11:00:47.273 T:22211   DEBUG: CVideoPlayer::HandleMessages - player started 2
+2019-08-07 11:00:47.273 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:47.274 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:47.274 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:47.275 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:47.275 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:47.275 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:47.386 T:20824    INFO: CActiveAESink::OpenSink - initialize sink
+2019-08-07 11:00:47.386 T:20824   DEBUG: Draining Audio
+2019-08-07 11:00:47.387 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:47.390 T:20824   DEBUG: Flushing might not be properly implemented, sleeping: 157 ms
+2019-08-07 11:00:47.547 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:47.547 T:20824   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+2019-08-07 11:00:47.547 T:20824   DEBUG: CAESinkAUDIOTRACK::Initialize requested: sampleRate 48000; format: AE_FMT_FLOATP; channels: 2
+2019-08-07 11:00:47.547 T:20824   DEBUG: Updated SampleRate: 32000 Distance: 144000
+2019-08-07 11:00:47.547 T:20824   DEBUG: Updated SampleRate: 44100 Distance: 35100
+2019-08-07 11:00:47.547 T:20824   DEBUG: Updated SampleRate: 48000 Distance: 0
+2019-08-07 11:00:47.547 T:20824  NOTICE: Trying to open: samplerate: 48000, channelMask: 12, encoding: 4
+2019-08-07 11:00:47.548 T:20824   DEBUG: Minimum size we need for stream: 30800
+2019-08-07 11:00:47.548 T:20824   DEBUG: Created Audiotrackbuffer with playing time of 160.416667 ms min buffer size: 61600 bytes
+2019-08-07 11:00:47.550 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 48000 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 61600 m_frames: 3850 m_frameSize: 8 channels: 2
+2019-08-07 11:00:47.550 T:20824   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+2019-08-07 11:00:47.550 T:20824   DEBUG:   Output Device : android
+2019-08-07 11:00:47.550 T:20824   DEBUG:   Sample Rate   : 48000
+2019-08-07 11:00:47.550 T:20824   DEBUG:   Sample Format : AE_FMT_FLOAT
+2019-08-07 11:00:47.550 T:20824   DEBUG:   Channel Count : 2
+2019-08-07 11:00:47.550 T:20824   DEBUG:   Channel Layout: FL, FR
+2019-08-07 11:00:47.550 T:20824   DEBUG:   Frames        : 3850
+2019-08-07 11:00:47.550 T:20824   DEBUG:   Frame Size    : 8
+2019-08-07 11:00:47.553 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:00:47.585 T:22211   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:47.585 T:22211   DEBUG: CVideoPlayer::HandleMessages - player started 1
+2019-08-07 11:00:47.585 T:22211   DEBUG: VideoPlayer::Sync - Audio - pts: 1008000.000000, cache: 311999.976635, totalcache: 760416.686535
+2019-08-07 11:00:47.585 T:22211   DEBUG: VideoPlayer::Sync - Video - pts: 1066244.000000, cache: 50000.000000, totalcache: 100000.000000
+2019-08-07 11:00:47.585 T:22175   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:47.585 T:22236   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_RESYNC(-152416.686535), level: 1, cache: 382883.204968
+2019-08-07 11:00:47.585 T:22236   DEBUG: CDVDAudio::Resume - resume audio stream
+2019-08-07 11:00:47.585 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:-0.050000
+2019-08-07 11:00:47.586 T:22175   DEBUG: OnAVStarted: CApplication::OnAVStarted
+2019-08-07 11:00:47.586 T:20823   DEBUG: ActiveAE - start sync of audio stream
+2019-08-07 11:00:47.586 T:22246   DEBUG: CVideoPlayerVideo - CDVDMsg::GENERAL_RESYNC(-152416.686535)
+2019-08-07 11:00:47.586 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:47.586 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:47.586 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVStart from xbmc
+2019-08-07 11:00:47.586 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVStart
+2019-08-07 11:00:47.690 T:20823   DEBUG: ActiveAE::SyncStream - average error of 780.771680, start adjusting
+2019-08-07 11:00:48.399 T:20823   DEBUG: ActiveAE::SyncStream - average error 0.835871 below threshold of 30.000000
+2019-08-07 11:00:49.013 T:20778   DEBUG: ------ Window Deinit (DialogSeekBar.xml) ------
+2019-08-07 11:00:49.440 T:20778   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:49.573 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:49.573 T:20778   DEBUG: HandleKey: backspace (0xf008) pressed, action is Fullscreen
+2019-08-07 11:00:49.573 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+2019-08-07 11:00:49.574 T:20778   DEBUG: ------ Window Deinit (VideoFullScreen.xml) ------
+2019-08-07 11:00:49.578 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+2019-08-07 11:00:49.578 T:20778   DEBUG: ------ Window Init (MyPVRChannels.xml) ------
+2019-08-07 11:00:49.580 T:20778   DEBUG: CGUIMediaWindow::GetDirectory (pvr://channels/tv/All channels/)
+2019-08-07 11:00:49.580 T:20778   DEBUG:   ParentPath = [pvr://channels/tv/All channels/]
+2019-08-07 11:00:50.461 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:50.875 T:20778   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:50.875 T:20778   DEBUG: HandleKey: up (0xf080) pressed, action is Up
+2019-08-07 11:00:50.991 T:20778   DEBUG: Keyboard: scancode: 0x13, sym: 0x0111, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:51.241 T:22246   DEBUG: CPtsTracker: detected pattern of length 1: 20000.00, frameduration: 20000.000000
+2019-08-07 11:00:51.325 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:00:51.425 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:51.425 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 11:00:51.427 T:20778   DEBUG: Activating window ID: 12005
+2019-08-07 11:00:51.427 T:20778   DEBUG: ------ Window Deinit (MyPVRChannels.xml) ------
+2019-08-07 11:00:51.428 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 11:00:51.429 T:20778   DEBUG: ------ Window Init (VideoFullScreen.xml) ------
+2019-08-07 11:00:51.442 T:20782   DEBUG: CAnnouncementManager - Announcement: OnResume from xbmc
+2019-08-07 11:00:51.442 T:20782   DEBUG: void CXBMCApp::OnPlayBackStarted()
+2019-08-07 11:00:51.442 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers(pvr://channels/tv/All channels/pvr.hts_1009078523.pvr)
+2019-08-07 11:00:51.442 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: system rules
+2019-08-07 11:00:51.442 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: matches rule: system rules
+2019-08-07 11:00:51.442 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: mms/udp
+2019-08-07 11:00:51.442 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: lastfm/shout
+2019-08-07 11:00:51.442 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtmp
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtsp
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: streams
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvd
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvdimage
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: sdp/asf
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: nsv
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: radio
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: matched 0 rules with players
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: adding videodefaultplayer (VideoPlayer)
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=0
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=1
+2019-08-07 11:00:51.443 T:20778   DEBUG: CPlayerCoreFactory::GetPlayers: added 1 players
+2019-08-07 11:00:51.443 T:20778  NOTICE: VideoPlayer::OpenFile: pvr://channels/tv/All channels/pvr.hts_1009078523.pvr
+2019-08-07 11:00:51.446 T:20782   DEBUG: Visible Behind request: false
+2019-08-07 11:00:51.446 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnResume
+2019-08-07 11:00:51.456 T:22211   DEBUG: CVideoPlayer: updating file item stream details with current streams
+2019-08-07 11:00:51.456 T:22211   DEBUG: CVideoPlayer::FlushBuffers - flushing buffers
+2019-08-07 11:00:51.462 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: state: 3
+2019-08-07 11:00:51.462 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: ReleaseMediaCodecBuffers
+2019-08-07 11:00:51.463 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: BUFFER_FLAG_END_OF_STREAM send
+2019-08-07 11:00:51.463 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec::Reset Current state (3)
+2019-08-07 11:00:51.464 T:22246   DEBUG: CDVDVideoCodecAndroidMediaCodec::InjectExtraData
+2019-08-07 11:00:51.467 T:22157   DEBUG: OnPlayBackStarted: CApplication::OnPlayBackStarted
+2019-08-07 11:00:51.475 T:22157   DEBUG: CPlayerGUIInfo::InitCurrentItem(pvr://channels/tv/All channels/pvr.hts_1009078523.pvr)
+2019-08-07 11:00:51.475 T:20782   DEBUG: CAnnouncementManager - Announcement: OnChanged from xbmc
+2019-08-07 11:00:51.475 T:20778   DEBUG: CPlayerGUIInfo::InitCurrentItem(pvr://channels/tv/All channels/pvr.hts_1009078523.pvr)
+2019-08-07 11:00:51.483 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1024, from xbmc, message OnChanged
+2019-08-07 11:00:51.483 T:20782   DEBUG: CAnnouncementManager - Announcement: OnChanged from xbmc
+2019-08-07 11:00:51.491 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1024, from xbmc, message OnChanged
+2019-08-07 11:00:51.491 T:20782   DEBUG: CAnnouncementManager - Announcement: OnPlay from xbmc
+2019-08-07 11:00:51.491 T:20782   DEBUG: void CXBMCApp::OnPlayBackStarted()
+2019-08-07 11:00:51.495 T:20782   DEBUG: Visible Behind request: false
+2019-08-07 11:00:51.496 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnPlay
+2019-08-07 11:00:51.562 T:22236   DEBUG: CDVDAudio::Flush - flush audio stream
+2019-08-07 11:00:51.562 T:22236   DEBUG: CDVDAudio::Pause - pausing audio stream
+2019-08-07 11:00:51.562 T:22236   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_SYNCHRONIZE
+2019-08-07 11:00:51.562 T:22211   DEBUG: CVideoPlayer::SetCaching - caching state 2
+2019-08-07 11:00:51.563 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:51.563 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux unsubscribe from 1417404906
+2019-08-07 11:00:51.563 T:22246   DEBUG: CVideoPlayerVideo - CDVDMsg::GENERAL_SYNCHRONIZE
+2019-08-07 11:00:51.564 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux successfully unsubscribed from channel id 1417404906, subscription id 2
+2019-08-07 11:00:51.564 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux close
+2019-08-07 11:00:51.564 T:22211   DEBUG: CInputStreamPVRChannel - ClosePVRStream - closed channel stream pvr://channels/tv/All channels/pvr.hts_1417404906.pvr
+2019-08-07 11:00:51.564 T:22211  NOTICE: Creating InputStream
+2019-08-07 11:00:51.564 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux close
+2019-08-07 11:00:51.564 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux open
+2019-08-07 11:00:51.564 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux subscribe to 1009078523
+2019-08-07 11:00:51.566 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux successfully subscribed to channel id 1009078523, subscription id 3
+2019-08-07 11:00:51.567 T:22211   DEBUG: CInputStreamPVRChannel - OpenPVRStream - opened channel stream pvr://channels/tv/All channels/pvr.hts_1009078523.pvr
+2019-08-07 11:00:51.567 T:22211  NOTICE: Creating Demuxer
+2019-08-07 11:00:51.567 T:22211  NOTICE: Closing stream player 2
+2019-08-07 11:00:51.567 T:22211   DEBUG: CVideoPlayer::SetCaching - caching state 0
+2019-08-07 11:00:51.567 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:51.567 T:22211  NOTICE: waiting for video thread to exit
+2019-08-07 11:00:51.567 T:22246   ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true
+2019-08-07 11:00:51.567 T:22246  NOTICE: thread end: video_thread
+2019-08-07 11:00:51.567 T:22246   DEBUG: Thread VideoPlayerVideo 22246 terminating
+2019-08-07 11:00:51.567 T:22211  NOTICE: deleting video codec
+2019-08-07 11:00:51.568 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: state: 2
+2019-08-07 11:00:51.568 T:22211   DEBUG: CMediaCodecVideoBufferPool::~CMediaCodecVideoBufferPool Releasing 4 buffers
+2019-08-07 11:00:51.571 T:22174   DEBUG: Loading settings for pvr://channels/tv/All channels/pvr.hts_1009078523.pvr
+2019-08-07 11:00:51.573 T:22236   DEBUG: CDVDAudio::Pause - pausing audio stream
+2019-08-07 11:00:51.575 T:20778   DEBUG: Flush - flushing renderer
+2019-08-07 11:00:51.579 T:22211  NOTICE: Closing stream player 1
+2019-08-07 11:00:51.579 T:22211  NOTICE: Waiting for audio thread to exit
+2019-08-07 11:00:51.583 T:22236  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2019-08-07 11:00:51.583 T:22236   DEBUG: Thread VideoPlayerAudio 22236 terminating
+2019-08-07 11:00:51.583 T:22211  NOTICE: Closing audio device
+2019-08-07 11:00:51.583 T:22211   DEBUG: CDVDAudio::Flush - flush audio stream
+2019-08-07 11:00:51.584 T:20823   DEBUG: CActiveAE::DiscardStream - audio stream deleted
+2019-08-07 11:00:51.584 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:00:51.586 T:22211   DEBUG: Previous line repeats 2 times.
+2019-08-07 11:00:51.586 T:22211  NOTICE: Deleting audio codec
+2019-08-07 11:00:51.586 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:00:51.586 T:22211  NOTICE: Closing stream player 4
+2019-08-07 11:00:51.586 T:22211  NOTICE: waiting for teletext data thread to exit
+2019-08-07 11:00:51.586 T:22237   ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true (-1)
+2019-08-07 11:00:51.586 T:22237  NOTICE: thread end: data_thread
+2019-08-07 11:00:51.586 T:22237   DEBUG: Thread DVDTeletextData 22237 terminating
+2019-08-07 11:00:51.587 T:22211   DEBUG: CVideoPlayer::SetCaching - caching state 2
+2019-08-07 11:00:51.587 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:51.587 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:51.588 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:51.588 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:51.594 T:20778   DEBUG: ------ Window Init (DialogSeekBar.xml) ------
+2019-08-07 11:00:51.678 T:20824    INFO: CActiveAESink::OpenSink - initialize sink
+2019-08-07 11:00:51.679 T:20824   DEBUG: Draining Audio
+2019-08-07 11:00:51.679 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:51.682 T:20824   DEBUG: Flushing might not be properly implemented, sleeping: 158 ms
+2019-08-07 11:00:51.840 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:51.840 T:20824   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+2019-08-07 11:00:51.840 T:20824   DEBUG: CAESinkAUDIOTRACK::Initialize requested: sampleRate 44100; format: AE_FMT_FLOAT; channels: 2
+2019-08-07 11:00:51.840 T:20824   DEBUG: Updated SampleRate: 32000 Distance: 108900
+2019-08-07 11:00:51.840 T:20824   DEBUG: Updated SampleRate: 44100 Distance: 0
+2019-08-07 11:00:51.840 T:20824  NOTICE: Trying to open: samplerate: 44100, channelMask: 12, encoding: 4
+2019-08-07 11:00:51.841 T:20824   DEBUG: Minimum size we need for stream: 28360
+2019-08-07 11:00:51.841 T:20824   DEBUG: Created Audiotrackbuffer with playing time of 160.770975 ms min buffer size: 56720 bytes
+2019-08-07 11:00:51.845 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 44100 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 56720 m_frames: 3545 m_frameSize: 8 channels: 2
+2019-08-07 11:00:51.845 T:20824   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+2019-08-07 11:00:51.845 T:20824   DEBUG:   Output Device : android
+2019-08-07 11:00:51.845 T:20824   DEBUG:   Sample Rate   : 44100
+2019-08-07 11:00:51.845 T:20824   DEBUG:   Sample Format : AE_FMT_FLOAT
+2019-08-07 11:00:51.846 T:20824   DEBUG:   Channel Count : 2
+2019-08-07 11:00:51.846 T:20824   DEBUG:   Channel Layout: FL, FR
+2019-08-07 11:00:51.846 T:20824   DEBUG:   Frames        : 3545
+2019-08-07 11:00:51.846 T:20824   DEBUG:   Frame Size    : 8
+2019-08-07 11:00:51.848 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:00:52.015 T:20847   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:52.015 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux subscription start
+2019-08-07 11:00:52.015 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1001, type MPEG2VIDEO, codec: 2
+2019-08-07 11:00:52.015 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1002, type MPEG2AUDIO, codec: 86016
+2019-08-07 11:00:52.016 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1003, type MPEG2AUDIO, codec: 86016
+2019-08-07 11:00:52.016 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1004, type TELETEXT, codec: 94215
+2019-08-07 11:00:52.016 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1005, type DVBSUB, codec: 94209
+2019-08-07 11:00:52.016 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts -   id: 1006, type TEXTSUB, codec: 94210
+2019-08-07 11:00:52.016 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux stream change
+2019-08-07 11:00:52.016 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1001 with codec_id 2
+2019-08-07 11:00:52.016 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1002 with codec_id 86016
+2019-08-07 11:00:52.016 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1003 with codec_id 86016
+2019-08-07 11:00:52.016 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1004 with codec_id 94215
+2019-08-07 11:00:52.016 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1005 with codec_id 94209
+2019-08-07 11:00:52.016 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1006 with codec_id 94210
+2019-08-07 11:00:52.017 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:52.017 T:22211 WARNING: OpenStream - Unsupported stream 1001. Stream disabled.
+2019-08-07 11:00:52.017 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:52.017 T:22211  NOTICE: Finding audio codec for: 86016
+2019-08-07 11:00:52.017 T:22211   DEBUG: CDVDAudioCodecAndroidMediaCodec::Open codec(86016), profile(-99), tag(0), extrasize(0)
+2019-08-07 11:00:52.018 T:22211    INFO: CDVDAudioCodecAndroidMediaCodec::Open() Use default handling for non encrypted stream
+2019-08-07 11:00:52.018 T:22211  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder mp2
+2019-08-07 11:00:52.018 T:22211  NOTICE: Creating audio thread
+2019-08-07 11:00:52.018 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:52.018 T:22266   DEBUG: Thread VideoPlayerAudio start, auto delete: false
+2019-08-07 11:00:52.018 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:52.018 T:22211  NOTICE: waiting for teletext data thread to exit
+2019-08-07 11:00:52.019 T:22266  NOTICE: running thread: CVideoPlayerAudio::Process()
+2019-08-07 11:00:52.019 T:22266   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:52.020 T:22211  NOTICE: Creating teletext data thread
+2019-08-07 11:00:52.020 T:22267   DEBUG: Thread DVDTeletextData start, auto delete: false
+2019-08-07 11:00:52.020 T:22267  NOTICE: running thread: CDVDTeletextData
+2019-08-07 11:00:52.021 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:52.021 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:52.021 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 1 reported state: 0
+2019-08-07 11:00:52.021 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:52.021 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:-0.050000
+2019-08-07 11:00:52.021 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - split extradata
+2019-08-07 11:00:52.021 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1001 with codec_id 2
+2019-08-07 11:00:52.021 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1002 with codec_id 86016
+2019-08-07 11:00:52.021 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1003 with codec_id 86016
+2019-08-07 11:00:52.021 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1004 with codec_id 94215
+2019-08-07 11:00:52.021 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1005 with codec_id 94209
+2019-08-07 11:00:52.021 T:22211   DEBUG: CDVDDemuxClient::RequestStream(): added/updated stream 1006 with codec_id 94210
+2019-08-07 11:00:52.021 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:52.021 T:22211  NOTICE: Creating video codec with codec id: 2
+2019-08-07 11:00:52.022 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mp2.decoder
+2019-08-07 11:00:52.022 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.wma.decoder
+2019-08-07 11:00:52.022 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h264.decode
+2019-08-07 11:00:52.022 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h263.decode
+2019-08-07 11:00:52.022 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.h265.decode
+2019-08-07 11:00:52.022 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mjpeg.decoder
+2019-08-07 11:00:52.022 T:22211  NOTICE: CDVDVideoCodecAndroidMediaCodec::Open Testing codec:OMX.Nvidia.mpeg2v.decode
+2019-08-07 11:00:52.025 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::Open m_codecname(OMX.Nvidia.mpeg2v.decode), colorFormat(2135033992)
+2019-08-07 11:00:52.026 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::Open m_codecname(OMX.Nvidia.mpeg2v.decode), colorFormat(21)
+2019-08-07 11:00:52.060 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::InjectExtraData
+2019-08-07 11:00:52.072 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: width(544), height(576), stride(0), slice-height(0), color-format(0)
+2019-08-07 11:00:52.072 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: crop-left(0), crop-top(0), crop-right(543), crop-bottom(575)
+2019-08-07 11:00:52.072 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec:: Multi-Surface Rendering
+2019-08-07 11:00:52.072 T:22211    INFO: CDVDVideoCodecAndroidMediaCodec:: Open Android MediaCodec OMX.Nvidia.mpeg2v.decode
+2019-08-07 11:00:52.072 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::UpdateFpsDuration fpsRate:1000000 fpsscale:40000, fpsDur:40000
+2019-08-07 11:00:52.072 T:22211   DEBUG: CVideoPlayerVideo::OpenStream - open stream with codec id: 2
+2019-08-07 11:00:52.072 T:22211  NOTICE: Creating video thread
+2019-08-07 11:00:52.072 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:52.072 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:00:52.072 T:22276   DEBUG: Thread VideoPlayerVideo start, auto delete: false
+2019-08-07 11:00:52.072 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:52.072 T:22276  NOTICE: running thread: video_thread
+2019-08-07 11:00:52.072 T:22276   DEBUG: CVideoPlayerVideo - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:52.072 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:52.072 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 2 reported state: 0
+2019-08-07 11:00:52.073 T:22276    INFO: CVideoPlayerVideo - Stillframe left, switching to normal playback
+2019-08-07 11:00:52.073 T:22276   DEBUG: CDVDVideoCodecAndroidMediaCodec::AddData current state (2)
+2019-08-07 11:00:52.073 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - (1002) samplerate changed from 3 to 48000
+2019-08-07 11:00:52.073 T:22211   DEBUG: CDVDDemuxClient::ParsePacket - (1003) samplerate changed from 3 to 48000
+2019-08-07 11:00:52.073 T:22211  NOTICE: Opening stream: 1001 source: 256
+2019-08-07 11:00:52.073 T:22211  NOTICE: Opening stream: 1003 source: 256
+2019-08-07 11:00:52.073 T:22276   DEBUG: CDVDVideoCodecAndroidMediaCodec::AddData current state (2)
+2019-08-07 11:00:52.073 T:22211  NOTICE: Finding audio codec for: 86016
+2019-08-07 11:00:52.073 T:22211   DEBUG: CDVDAudioCodecAndroidMediaCodec::Open codec(86016), profile(-99), tag(0), extrasize(0)
+2019-08-07 11:00:52.074 T:22211    INFO: CDVDAudioCodecAndroidMediaCodec::Open() Use default handling for non encrypted stream
+2019-08-07 11:00:52.074 T:22211  NOTICE: CDVDAudioCodecFFmpeg::Open() Successful opened audio decoder mp2
+2019-08-07 11:00:52.074 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:00:52.074 T:22211  NOTICE: Opening stream: 1005 source: 256
+2019-08-07 11:00:52.074 T:22211  NOTICE: Opening stream: 1004 source: 256
+2019-08-07 11:00:52.074 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 2 reported state: 0
+2019-08-07 11:00:52.079 T:22266   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_PAUSE: 0
+2019-08-07 11:00:52.080 T:22266  NOTICE: Creating audio stream (codec id: 86016, channels: 2, sample rate: 48000, no pass-through)
+2019-08-07 11:00:52.080 T:22266   DEBUG: CVideoPlayerAudio:: synctype set to 1: resample
+2019-08-07 11:00:52.086 T:22276   DEBUG: CDVDVideoCodecAndroidMediaCodec::AddData current state (2)
+2019-08-07 11:00:52.086 T:22276   DEBUG: CDVDVideoCodecAndroidMediaCodec::UpdateFpsDuration fpsRate:25000 fpsscale:1000, fpsDur:40000
+2019-08-07 11:00:52.101 T:22211   DEBUG: CVideoPlayer::HandleMessages - player 1 reported state: 0
+2019-08-07 11:00:52.101 T:22174   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:52.101 T:22174   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:52.101 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:52.101 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:52.151 T:22276   DEBUG: CDVDVideoCodecAndroidMediaCodec:: width(640), height(576), stride(640), slice-height(576), color-format(262)
+2019-08-07 11:00:52.151 T:22276   DEBUG: CDVDVideoCodecAndroidMediaCodec:: crop-left(0), crop-top(0), crop-right(639), crop-bottom(575)
+2019-08-07 11:00:52.151 T:22276   DEBUG: CDVDVideoCodecAndroidMediaCodec:: Multi-Surface Rendering
+2019-08-07 11:00:52.151 T:22276   DEBUG: CRenderManager::Configure - change configuration. 640x576. display: 640x480. framerate: 25.00.
+2019-08-07 11:00:52.163 T:20778   DEBUG: DeleteRenderer - deleting renderer
+2019-08-07 11:00:52.163 T:20778  NOTICE: Instancing CRendererMediaCodecSurface
+2019-08-07 11:00:52.163 T:20778  NOTICE: CRendererMediaCodecSurface::Configure
+2019-08-07 11:00:52.163 T:20778   DEBUG: CRenderManager::Configure - 4
+2019-08-07 11:00:52.190 T:22211   DEBUG: CVideoPlayer::HandleMessages - player started 2
+2019-08-07 11:00:52.190 T:22157   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:52.191 T:20782   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:52.191 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:52.191 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:52.191 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:52.191 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:52.202 T:20824    INFO: CActiveAESink::OpenSink - initialize sink
+2019-08-07 11:00:52.202 T:20824   DEBUG: Draining Audio
+2019-08-07 11:00:52.202 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:52.205 T:20824   DEBUG: Flushing might not be properly implemented, sleeping: 159 ms
+2019-08-07 11:00:52.364 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:00:52.364 T:20824   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+2019-08-07 11:00:52.364 T:20824   DEBUG: CAESinkAUDIOTRACK::Initialize requested: sampleRate 48000; format: AE_FMT_FLOATP; channels: 2
+2019-08-07 11:00:52.364 T:20824   DEBUG: Updated SampleRate: 32000 Distance: 144000
+2019-08-07 11:00:52.364 T:20824   DEBUG: Updated SampleRate: 44100 Distance: 35100
+2019-08-07 11:00:52.364 T:20824   DEBUG: Updated SampleRate: 48000 Distance: 0
+2019-08-07 11:00:52.364 T:20824  NOTICE: Trying to open: samplerate: 48000, channelMask: 12, encoding: 4
+2019-08-07 11:00:52.365 T:20824   DEBUG: Minimum size we need for stream: 30800
+2019-08-07 11:00:52.365 T:20824   DEBUG: Created Audiotrackbuffer with playing time of 160.416667 ms min buffer size: 61600 bytes
+2019-08-07 11:00:52.367 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 48000 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 61600 m_frames: 3850 m_frameSize: 8 channels: 2
+2019-08-07 11:00:52.367 T:20824   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+2019-08-07 11:00:52.367 T:20824   DEBUG:   Output Device : android
+2019-08-07 11:00:52.367 T:20824   DEBUG:   Sample Rate   : 48000
+2019-08-07 11:00:52.367 T:20824   DEBUG:   Sample Format : AE_FMT_FLOAT
+2019-08-07 11:00:52.367 T:20824   DEBUG:   Channel Count : 2
+2019-08-07 11:00:52.367 T:20824   DEBUG:   Channel Layout: FL, FR
+2019-08-07 11:00:52.367 T:20824   DEBUG:   Frames        : 3850
+2019-08-07 11:00:52.367 T:20824   DEBUG:   Frame Size    : 8
+2019-08-07 11:00:52.370 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:00:52.415 T:22211   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:00:52.415 T:22211   DEBUG: CVideoPlayer::HandleMessages - player started 1
+2019-08-07 11:00:52.415 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:52.415 T:22211   DEBUG: VideoPlayer::Sync - Audio - pts: 487488.000000, cache: 311999.976635, totalcache: 760416.686535
+2019-08-07 11:00:52.415 T:22211   DEBUG: VideoPlayer::Sync - Video - pts: 609733.000000, cache: 50000.000000, totalcache: 100000.000000
+2019-08-07 11:00:52.415 T:22266   DEBUG: CVideoPlayerAudio - CDVDMsg::GENERAL_RESYNC(-672928.686535), level: 2, cache: 422828.448857
+2019-08-07 11:00:52.415 T:22276   DEBUG: CVideoPlayerVideo - CDVDMsg::GENERAL_RESYNC(-672928.686535)
+2019-08-07 11:00:52.415 T:20823   DEBUG: ActiveAE - start sync of audio stream
+2019-08-07 11:00:52.416 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:52.416 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:52.416 T:22176   DEBUG: OnAVStarted: CApplication::OnAVStarted
+2019-08-07 11:00:52.416 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:-0.050000
+2019-08-07 11:00:52.416 T:22266   DEBUG: CDVDAudio::Resume - resume audio stream
+2019-08-07 11:00:52.416 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVStart from xbmc
+2019-08-07 11:00:52.416 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVStart
+2019-08-07 11:00:52.602 T:20823   DEBUG: ActiveAE::SyncStream - average error of 729.677847, start adjusting
+2019-08-07 11:00:53.215 T:20823   DEBUG: ActiveAE::SyncStream - average error 28.869201 below threshold of 30.000000
+2019-08-07 11:00:54.250 T:20778   DEBUG: ------ Window Deinit (DialogSeekBar.xml) ------
+2019-08-07 11:00:54.778 T:22211   DEBUG: CDVDClock::SetSpeedAdjust - adjusted:0.000000
+2019-08-07 11:00:56.113 T:22276   DEBUG: CPtsTracker: detected pattern of length 1: 20000.00, frameduration: 20000.000000
+2019-08-07 11:00:57.102 T:22276   DEBUG: CalcFrameRate framerate was:25.000000 calculated:50.000000
+2019-08-07 11:00:57.114 T:22276   DEBUG: CRenderManager::Configure - change configuration. 640x576. display: 640x480. framerate: 50.00.
+2019-08-07 11:00:57.167 T:20778   DEBUG: DeleteRenderer - deleting renderer
+2019-08-07 11:00:57.167 T:20778  NOTICE: Instancing CRendererMediaCodecSurface
+2019-08-07 11:00:57.167 T:20778  NOTICE: CRendererMediaCodecSurface::Configure
+2019-08-07 11:00:57.167 T:20778   DEBUG: CRenderManager::Configure - 4
+2019-08-07 11:00:57.180 T:22174   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:57.180 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:57.180 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:00:57.185 T:22176   DEBUG: OnAVChange: CApplication::OnAVChange
+2019-08-07 11:00:57.185 T:20782   DEBUG: CAnnouncementManager - Announcement: OnAVChange from xbmc
+2019-08-07 11:00:57.185 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnAVChange
+2019-08-07 11:01:01.802 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:01.952 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:01.953 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is OSD
+2019-08-07 11:01:01.953 T:20778   DEBUG: ------ Window Init (VideoOSD.xml) ------
+2019-08-07 11:01:02.937 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:02.937 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:03.054 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:03.170 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:03.171 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:03.220 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:03.373 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:03.373 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:03.471 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:03.704 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:03.704 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:03.788 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:04.155 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:04.271 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:04.272 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 11:01:04.272 T:20778  NOTICE: CVideoPlayer::CloseFile()
+2019-08-07 11:01:04.272 T:20778   DEBUG: DeleteRenderer - deleting renderer
+2019-08-07 11:01:04.272 T:20778  NOTICE: VideoPlayer: waiting for threads to exit
+2019-08-07 11:01:04.273 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1001
+2019-08-07 11:01:04.274 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1004
+2019-08-07 11:01:04.274 T:20847   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:04.274 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1001
+2019-08-07 11:01:04.274 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1002
+2019-08-07 11:01:04.274 T:20847   DEBUG: Previous line repeats 4 times.
+2019-08-07 11:01:04.274 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1004
+2019-08-07 11:01:04.275 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1003
+2019-08-07 11:01:04.320 T:22211   DEBUG: Previous line repeats 4 times.
+2019-08-07 11:01:04.320 T:22211  NOTICE: CVideoPlayer::OnExit()
+2019-08-07 11:01:04.320 T:22211   DEBUG: CVideoPlayer: updating file item stream details with current streams
+2019-08-07 11:01:04.320 T:22211  NOTICE: Closing stream player 1
+2019-08-07 11:01:04.320 T:22211  NOTICE: Waiting for audio thread to exit
+2019-08-07 11:01:04.330 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1004
+2019-08-07 11:01:04.386 T:20847   DEBUG: Previous line repeats 4 times.
+2019-08-07 11:01:04.386 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1002
+2019-08-07 11:01:04.386 T:20847   DEBUG: Previous line repeats 4 times.
+2019-08-07 11:01:04.387 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1004
+2019-08-07 11:01:04.396 T:22266  NOTICE: thread end: CVideoPlayerAudio::OnExit()
+2019-08-07 11:01:04.397 T:22266   DEBUG: Thread VideoPlayerAudio 22266 terminating
+2019-08-07 11:01:04.397 T:22211  NOTICE: Closing audio device
+2019-08-07 11:01:04.442 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1003
+2019-08-07 11:01:04.442 T:20847   DEBUG: Previous line repeats 4 times.
+2019-08-07 11:01:04.442 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1004
+2019-08-07 11:01:04.446 T:20847   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:04.446 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1001
+2019-08-07 11:01:04.446 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1004
+2019-08-07 11:01:04.490 T:22211   DEBUG: CDVDAudio::Flush - flush audio stream
+2019-08-07 11:01:04.492 T:20823   DEBUG: CActiveAE::DiscardStream - audio stream deleted
+2019-08-07 11:01:04.492 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:01:04.494 T:22211   DEBUG: Previous line repeats 2 times.
+2019-08-07 11:01:04.494 T:22211  NOTICE: Deleting audio codec
+2019-08-07 11:01:04.494 T:22211  NOTICE: Closing stream player 2
+2019-08-07 11:01:04.494 T:22211  NOTICE: waiting for video thread to exit
+2019-08-07 11:01:04.494 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1004
+2019-08-07 11:01:04.495 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1001
+2019-08-07 11:01:04.495 T:20847   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - Dropped packet with unknown stream index 1004
+2019-08-07 11:01:04.498 T:20824    INFO: CActiveAESink::OpenSink - initialize sink
+2019-08-07 11:01:04.498 T:20824   DEBUG: Draining Audio
+2019-08-07 11:01:04.498 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:01:04.499 T:20824   DEBUG: Flushing might not be properly implemented, sleeping: 159 ms
+2019-08-07 11:01:04.521 T:22276  NOTICE: thread end: video_thread
+2019-08-07 11:01:04.521 T:22276   DEBUG: Thread VideoPlayerVideo 22276 terminating
+2019-08-07 11:01:04.522 T:22211  NOTICE: deleting video codec
+2019-08-07 11:01:04.522 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: state: 3
+2019-08-07 11:01:04.522 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: ReleaseMediaCodecBuffers
+2019-08-07 11:01:04.522 T:22211   DEBUG: CDVDVideoCodecAndroidMediaCodec::SignalEndOfStream: BUFFER_FLAG_END_OF_STREAM send
+2019-08-07 11:01:04.532 T:22211   DEBUG: CMediaCodecVideoBufferPool::~CMediaCodecVideoBufferPool Releasing 4 buffers
+2019-08-07 11:01:04.532 T:22211  NOTICE: Closing stream player 4
+2019-08-07 11:01:04.532 T:22211  NOTICE: waiting for teletext data thread to exit
+2019-08-07 11:01:04.532 T:22267   ERROR: Got MSGQ_ABORT or MSGO_IS_ERROR return true (-1)
+2019-08-07 11:01:04.532 T:22267  NOTICE: thread end: data_thread
+2019-08-07 11:01:04.532 T:22267   DEBUG: Thread DVDTeletextData 22267 terminating
+2019-08-07 11:01:04.533 T:22211  NOTICE: Closing stream player 3
+2019-08-07 11:01:04.534 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux unsubscribe from 1009078523
+2019-08-07 11:01:04.537 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux successfully unsubscribed from channel id 1009078523, subscription id 3
+2019-08-07 11:01:04.537 T:22211   DEBUG: AddOnLog: Tvheadend HTSP Client: pvr.hts - demux close
+2019-08-07 11:01:04.537 T:22211   DEBUG: CInputStreamPVRChannel - ClosePVRStream - closed channel stream pvr://channels/tv/All channels/pvr.hts_1009078523.pvr
+2019-08-07 11:01:04.537 T:22211   DEBUG: Thread VideoPlayer 22211 terminating
+2019-08-07 11:01:04.537 T:20778  NOTICE: VideoPlayer: finished waiting
+2019-08-07 11:01:04.537 T:20778  NOTICE: CVideoPlayer::CloseFile()
+2019-08-07 11:01:04.537 T:20778  NOTICE: VideoPlayer: waiting for threads to exit
+2019-08-07 11:01:04.537 T:20778  NOTICE: VideoPlayer: finished waiting
+2019-08-07 11:01:04.540 T:20778   DEBUG: Radio UECP (RDS) Processor - delete ~CDVDRadioRDSData
+2019-08-07 11:01:04.542 T:22175   DEBUG: OnPlayBackStopped: CApplication::OnPlayBackStopped
+2019-08-07 11:01:04.549 T:20782   DEBUG: CAnnouncementManager - Announcement: OnStop from xbmc
+2019-08-07 11:01:04.549 T:20782   DEBUG: void CXBMCApp::OnPlayBackStopped()
+2019-08-07 11:01:04.551 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+2019-08-07 11:01:04.551 T:20778   DEBUG: ------ Window Deinit (VideoOSD.xml) ------
+2019-08-07 11:01:04.551 T:20782   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnStop
+2019-08-07 11:01:04.551 T:20778   DEBUG: ------ Window Deinit (VideoFullScreen.xml) ------
+2019-08-07 11:01:04.555 T:20778   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+2019-08-07 11:01:04.555 T:20778   DEBUG: ------ Window Init (MyPVRChannels.xml) ------
+2019-08-07 11:01:04.558 T:20778   DEBUG: CGUIMediaWindow::GetDirectory (pvr://channels/tv/All channels/)
+2019-08-07 11:01:04.558 T:20778   DEBUG:   ParentPath = [pvr://channels/tv/All channels/]
+2019-08-07 11:01:04.601 T:20778   DEBUG: ffmpeg[2B1D1804F0]: [swscaler] No accelerated colorspace conversion found from yuv420p to bgra.
+2019-08-07 11:01:04.659 T:20824   DEBUG: CAESinkAUDIOTRACK::Deinitialize
+2019-08-07 11:01:04.659 T:20824   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+2019-08-07 11:01:04.659 T:20824   DEBUG: CAESinkAUDIOTRACK::Initialize requested: sampleRate 44100; format: AE_FMT_FLOAT; channels: 2
+2019-08-07 11:01:04.659 T:20824   DEBUG: Updated SampleRate: 32000 Distance: 108900
+2019-08-07 11:01:04.659 T:20824   DEBUG: Updated SampleRate: 44100 Distance: 0
+2019-08-07 11:01:04.659 T:20824  NOTICE: Trying to open: samplerate: 44100, channelMask: 12, encoding: 4
+2019-08-07 11:01:04.659 T:20824   DEBUG: Minimum size we need for stream: 28360
+2019-08-07 11:01:04.659 T:20824   DEBUG: Created Audiotrackbuffer with playing time of 160.770975 ms min buffer size: 56720 bytes
+2019-08-07 11:01:04.662 T:20824  NOTICE: CAESinkAUDIOTRACK::Initializing with: m_sampleRate: 44100 format: AE_FMT_FLOAT (AE) method: PCM stream-type: PCM-STREAM min_buffer_size: 56720 m_frames: 3545 m_frameSize: 8 channels: 2
+2019-08-07 11:01:04.662 T:20824   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+2019-08-07 11:01:04.662 T:20824   DEBUG:   Output Device : android
+2019-08-07 11:01:04.662 T:20824   DEBUG:   Sample Rate   : 44100
+2019-08-07 11:01:04.662 T:20824   DEBUG:   Sample Format : AE_FMT_FLOAT
+2019-08-07 11:01:04.662 T:20824   DEBUG:   Channel Count : 2
+2019-08-07 11:01:04.662 T:20824   DEBUG:   Channel Layout: FL, FR
+2019-08-07 11:01:04.662 T:20824   DEBUG:   Frames        : 3545
+2019-08-07 11:01:04.662 T:20824   DEBUG:   Frame Size    : 8
+2019-08-07 11:01:04.664 T:20823   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+2019-08-07 11:01:04.728 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:04.728 T:20778   DEBUG: Uninhibiting OS screen saver
+2019-08-07 11:01:05.939 T:20778   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:05.939 T:20778   DEBUG: HandleKey: backspace (0xf008) pressed, action is Back
+2019-08-07 11:01:05.939 T:20778   DEBUG: Activating window ID: 10000
+2019-08-07 11:01:06.198 T:20778   DEBUG: ------ Window Deinit (MyPVRChannels.xml) ------
+2019-08-07 11:01:06.199 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 11:01:06.201 T:20778   DEBUG: ------ Window Init (Home.xml) ------
+2019-08-07 11:01:06.201 T:20778   DEBUG: CDirectoryProvider[library://video/movies/]: refreshing..
+2019-08-07 11:01:06.201 T:20778   DEBUG: CDirectoryProvider[library://video/tvshows/]: refreshing..
+2019-08-07 11:01:06.201 T:20778   DEBUG: CDirectoryProvider[library://music/]: refreshing..
+2019-08-07 11:01:06.206 T:20778   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:06.212 T:22174   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultGenre.png'
+2019-08-07 11:01:06.212 T:22176   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultCountry.png'
+2019-08-07 11:01:06.213 T:22176   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultDirector.png'
+2019-08-07 11:01:06.213 T:22176   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultGenre.png'
+2019-08-07 11:01:06.214 T:22174   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultStudios.png'
+2019-08-07 11:01:06.214 T:22174   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultTags.png'
+2019-08-07 11:01:06.214 T:22174   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultTVShowTitle.png'
+2019-08-07 11:01:06.215 T:22176   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultStudios.png'
+2019-08-07 11:01:06.215 T:22174   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultYear.png'
+2019-08-07 11:01:06.215 T:22176   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultTags.png'
+2019-08-07 11:01:06.216 T:22176   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultMovieTitle.png'
+2019-08-07 11:01:06.216 T:22176   DEBUG: [Warning] CGUITextureManager::GetTexturePath: could not find texture 'DefaultYear.png'
+2019-08-07 11:01:07.122 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:07.122 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:07.191 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:07.325 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:07.325 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:07.391 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:07.525 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:07.525 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:07.575 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:07.692 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:07.692 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:07.792 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:08.726 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:08.876 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:08.876 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 11:01:08.876 T:20778   DEBUG: Activating window ID: 10004
+2019-08-07 11:01:09.115 T:20778   DEBUG: ------ Window Deinit (Home.xml) ------
+2019-08-07 11:01:09.115 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 11:01:09.126 T:20778   DEBUG: ------ Window Init (Settings.xml) ------
+2019-08-07 11:01:13.864 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:13.998 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:13.998 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 11:01:13.999 T:20778   DEBUG: Activating window ID: 10016
+2019-08-07 11:01:14.254 T:20778   DEBUG: ------ Window Deinit (Settings.xml) ------
+2019-08-07 11:01:14.254 T:20778   DEBUG: FreeVisualisation() done
+2019-08-07 11:01:14.265 T:20778   DEBUG: ------ Window Init (SettingsCategory.xml) ------
+2019-08-07 11:01:24.314 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:24.314 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 11:01:24.425 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:24.492 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:24.492 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 11:01:24.592 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:24.677 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:24.677 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 11:01:24.805 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:24.843 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:24.843 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 11:01:24.976 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:25.042 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:25.043 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 11:01:25.176 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:25.226 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:25.226 T:20778   DEBUG: HandleKey: down (0xf081) pressed, action is Down
+2019-08-07 11:01:25.343 T:20778   DEBUG: Keyboard: scancode: 0x14, sym: 0x0112, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:25.893 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:26.073 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:26.073 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 11:01:26.644 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:26.644 T:20778   DEBUG: HandleKey: right (0xf083) pressed, action is Right
+2019-08-07 11:01:26.778 T:20778   DEBUG: Keyboard: scancode: 0x16, sym: 0x0113, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:28.124 T:20778   DEBUG: Keyboard: scancode: 0x17, sym: 0x000d, unicode: 0x0000, modifier: 0x0
+2019-08-07 11:01:28.131 T:20778   DEBUG: Previous line repeats 1 times.
+2019-08-07 11:01:28.131 T:20778   DEBUG: HandleKey: return (0xf00d) pressed, action is Select
+2019-08-07 11:01:28.131 T:20778  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+2019-08-07 11:01:28.131 T:20778  NOTICE: Log level changed to "LOG_LEVEL_NORMAL"
+2019-08-07 11:01:38.128 T:20778  NOTICE: CWinSystemAndroid::DestroyWindow
